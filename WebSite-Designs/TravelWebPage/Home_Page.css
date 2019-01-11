@@ -1,0 +1,104 @@
+body {
+    background: url("Classic-Blue-Pattern-Wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+   }
+   h1 {
+    font-size: 26px;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 60px;
+    animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+   }
+   h2 {
+   
+   }
+   a {
+   
+   }
+  
+   .img1 {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    top: -65px;
+    left: 5px;
+    animation-name: slideInRight;
+       -moz-animation: slideInRight 1s;
+       -webkit-animation: slideInRight 1s;
+       -o-animation: slideInRight 1s;
+   }
+   .Img2 {
+    height: 200px;
+    width: 400px;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+    padding: 5px;
+   }
+   .Img3 {
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: red;
+   }
+   .one {
+    background: #FFF8EB;
+    background-image: linear-gradient(to bottom, white, #FFBA61 90%, orange);
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -3px;
+    height: 60px;
+    margin: 5px;
+    padding: 5px;
+   }
+   .two {
+     background-image: linear-gradient(to bottom, #FFAD5E 90%, orange);
+     box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.2);
+     margin: 5px;
+     padding: 5px;
+     max-width: 500px;
+     height: 600px;
+     position: relative;
+     top: 50px;
+     border-radius: 20px 20px 20px 20px;
+   }
+   .options {
+    box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.2);
+   }
+   .acl1 {
+     background: white;
+     position: relative;
+     top: -880px;
+     max-width: 250px;
+     height: 325px;
+   }
+   .acl2 {
+    background-image: linear-gradient(to bottom, #FFAD5E 90%, orange);
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    padding: 5px;
+    max-width: 500px;
+    position: relative;
+    top: -790px;
+    height: 400px;
+   }
+  .pc1 {
+    background-color: yellow;
+  }
+  .bk {
+    background-image: linear-gradient(to bottom, #CFCBCB, #9E9C9C);
+    height: 1250px;
+    max-width: 820px;
+    position: relative;
+    top: 60px;
+  }

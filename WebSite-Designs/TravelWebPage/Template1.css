@@ -1,0 +1,213 @@
+body {
+    background: url("Classic-Blue-Pattern-Wallpaper.jpg");
+    margin: 0px;
+  }
+  main {
+    animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+  }
+  h1 {
+    font-size: 26px;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 60px;
+    animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+   }
+  h2 {
+    font-size: 24px;
+    color: white;
+    background: #D1E5FF;
+    background-image: linear-gradient(to bottom, #FFEECD, #FFBA61 100%, orange);
+    border-radius: 20px 20px 20px 20px;
+    max-width: 110px;
+    position: relative;
+    top: 10px;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  h4 {
+    color: white;
+    font-size: 31px;
+    font-family: 'Dancing Script', cursive;
+    animation-name: slideInRight;
+      -moz-animation: slideInRight 1s;
+      -webkit-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+  }
+  h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    position: relative;
+    top: -5px;
+  }
+  p {
+    font-size: 20px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+  }
+  ul {
+  
+  }
+  a {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+  }
+  hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      margin: 1em 0;
+      padding: 0;
+      background: black;
+      max-width: 500px;
+      position: relative;
+      top: 20px;
+  }
+  .g {
+    display: block;
+      height: 1px;
+      border: 0;
+      margin: 1em 0;
+      padding: 0;
+      background: black;
+      max-width: 500px;
+      position: relative;
+      top: -22px;
+  }
+  button {
+    font-size: 19px;
+    color: white;
+    background: #D1E5FF;
+    background-image: linear-gradient(to bottom, #FFEECD, #FFBA61 100%, orange);
+    border-radius: 20px 20px 20px 20px;
+    max-width: 110px;
+    position: relative;
+    top: -20px;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .one {
+   background: #FFF8EB;
+   background-image: linear-gradient(to bottom, white, #FFBA61 90%, orange);
+   margin: 0px;
+   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+   position: relative;
+   top: -3px;
+   height: 60px;
+  }
+  .two {
+   background: #D2E0FF;
+   max-width: 600px; 
+   box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.2);
+   background-image: linear-gradient(to bottom, #8377FF, #7394FF 30%, white);
+   height: 1480px;
+  }
+  .v {
+   background: #FFF8EB;
+   width: 350px;
+   border-radius: 10px 10px 10px 10px;
+   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  .two1 {
+   position: relative;
+   top: 8px;
+  }
+  .two2 {
+   position: relative;
+   top: 10px; 
+  }
+  .two3 {
+   position: relative;
+   top: 18px;
+  }
+  .three {
+   background: #FFF8EB;
+   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+   background-image: linear-gradient(to bottom, white, #FFBA61 100%, orange);
+   animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+  }
+  .four {
+   background: rgba(0, 0, 0, 0.2);
+   animation-name: slideInRight;
+      -moz-animation: slideInRight 1s;
+      -webkit-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+  }
+  
+  
+  .img1 {
+   height: 50px;
+   width: 50px;
+   position: relative;
+   top: -45px;
+   left: 5px;
+   animation-name: slideInRight;
+      -moz-animation: slideInRight 1s;
+      -webkit-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+   }
+  
+  .img2 {
+   height: 200px;
+   width: 300px;
+   border-radius: 20px 20px 20px 20px;
+   box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .img3 {
+   height: 40px;
+   width: 40px;
+   position: relative;
+   top: 4px;
+   left: 5px;
+  }
+  .img4 {
+   height: 200px;
+   width: 300px;
+   border-radius: 20px 20px 20px 20px;
+   box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .img5 {
+   height: 200px;
+   width: 300px;
+   border-radius: 20px 20px 20px 20px;
+   box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .img6 {
+   height: 200px;
+   width: 300px;
+   border-radius: 20px 20px 20px 20px;
+   box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  

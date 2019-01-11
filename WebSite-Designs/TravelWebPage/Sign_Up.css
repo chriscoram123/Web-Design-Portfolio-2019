@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 12px;
+    background: url("wp2003930.jpg");
+     background-position: center;
+     background-size: cover;
+   }
+   .headerMenu {
+    background-color: #00B9ED;
+    height: 40px;
+    border-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+   }
+   #wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+   .logo {
+    width: 15px;
+   }
+   .logo-img {
+    width: 0px;
+    height: 0px;
+   }
+   .transparent {
+     background-image: linear-gradient(to bottom, #8377FF, #7394FF 0%, white);
+     box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+     color: black;
+     position: relative;
+     left: 0px;
+     top: 1px;
+     font-size: 26px;
+     font-family: 'Roboto Slab', serif;
+   }
+   
+   hr {
+       display: block;
+       height: 2px;
+       border: 0;
+       margin: 1em 0;
+       padding: 0;
+       background: black;
+       position: relative;
+       top: 72px;
+       width: 650px;
+   }
+   table { 
+    background-image: linear-gradient(to bottom, #8377FF, #7394FF 30%, lightblue);
+    width: 308px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 10px;
+    top: 40px;
+    border: 1px solid black;
+    animation-name: fadeIn;
+ -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+   }
+   img {
+    max-height: 33px;
+    position: relative;
+    left: 8px;
+    top: 2px;
+   }
+   p {
+    position: relative;
+    left: 50px;
+    top: 22px;
+    font-size: 22px;
+    color: white;
+    font: Arial;
+   }
+   h1 {
+     font-size: 26px;
+     color: white;
+     position: relative;
+     top: 15px;
+     left: 60px;
+     animation-name: fadeIn;
+       -moz-animation: fadeIn 3s;
+       -webkit-animation: fadeIn 3s;
+       -o-animation: fadeIn 3s;
+    }
+   h2 {
+    font-family: Arial, Helvectiva, Sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    color: white;
+    background-image: linear-gradient(to bottom, #FFC07F, #FFBA61 90%, orange);
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    top: -3px;
+   }
+   input[type="text"] {
+    border: 1px solid #E2E2E2;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    outline: none;
+    border-radius: 18px 18px 18px 18px;
+   }
+   
+    input[type="text"]:hover {
+    border: 1px solid #006FC4;
+   }
+    input[type="submit"] {
+    background-image: linear-gradient(to bottom, #FFC07F, #FFBA61 90%, orange);
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    top: -15px;
+   }
+   
+   @keyframes fadeIn {
+     from {
+       opacity: 0;
+     }
+   
+     to {
+       opacity: 1;
+     }
+   }
+   
+   @keyframes slideInRight {
+     from {
+       transform: translate3d(100%, 0, 0);
+       visibility: visible;
+     }
+   
+     to {
+       transform: translate3d(0, 0, 0);
+     }
+   }
+   
+   .img1 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -36px;
+    left: 5px;
+    animation-name: slideInRight;
+       -moz-animation: slideInRight 1s;
+       -webkit-animation: slideInRight 1s;
+       -o-animation: slideInRight 1s;
+    }
+    .img2 {
+    float: left;
+    position: relative;
+    top: 50px;
+    }
+    .one {
+    background: #FFF8EB;
+    background-image: linear-gradient(to bottom, white, #FFBA61 90%, orange);
+    margin: 0px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -3px;
+    height: 60px;
+   }
+   .two {
+     background: url("airplane-wallpaper-3.jpg");
+     background-size: cover;
+     background-position: center;
+     box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+     position: relative;
+     top: 100px;
+     height: 300px;
+     animation-name: fadeIn;
+ -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+   }
+   .three {
+     background-image: linear-gradient(to bottom, #FFB06D, #FFBA61 90%, orange);
+     position: relative;
+     top: 70px;
+     box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+     animation-name: fadeIn;
+ -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+   }
+   .four {
+     background-image: linear-gradient(to bottom, #8377FF, #7394FF 0%, lightblue);
+     position: relative;
+     top: 120px;
+     font-size: 20px;
+     height: 80px;
+   }
+   
