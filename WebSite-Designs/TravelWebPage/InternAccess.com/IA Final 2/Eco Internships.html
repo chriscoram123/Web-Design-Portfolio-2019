@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<style>
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial;
+ font-size: 12px;
+}
+.headerMenu {
+ background-color: #00B9ED;
+ height: 40px;
+ border-bottom: 0px;
+ padding-left: auto;
+ padding-right: auto;
+ width: 100%;
+}
+#wrapper {
+ margin-left: auto;
+ margin-right: auto;
+ width: 1000%
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
+.logo {
+ width: 15px;
+}
+.logo-img {
+ width: 0px;
+ height: 0px;
+}
+img {
+ max-height: 33px;
+ position: relative;
+ left: 8px;
+ top: 2px;
+}
+
+p {
+position: relative;
+left: 50px;
+top: -49px;
+font-size: 22px;
+color: white;
+}
+input[type=text] {
+    width: 130px;
+    height: 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+div.scrollmenu {
+    background-color: #000033;
+    overflow: auto;
+    white-space: nowrap;
+    -moz-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+    border-radius: 200px 200px 0px 0px;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    padding: 14px;
+    text-decoration: none;
+    -moz-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+}
+
+div.scrollmenu a:hover {
+    background-color: #66ccff;
+ -moz-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+}
+h1 {
+text-align: center;
+}
+h2 {
+position: relative;
+top: 12px;
+left: -7px;
+}
+h5 {
+position: relative;
+top: -15px;
+left: -2px;
+font-size: 25px;
+}
+h6 {
+text-align: center;
+font-size: 26px;
+}
+a {
+color: white;
+font-size: 26px;
+font-family: 'Roboto', sans-serif;
+}
+ul {
+ont-family: 'Orbitron', sans-serif;
+text-align: center;
+color: black;
+font-size: 25px;
+position: relative;
+left: -18px;
+top: -26px;
+}
+button {
+   background: #66ccff;
+   font-size: 30px;
+   font-family: 'Orbitron', sans-serif;
+   color: white;
+   position: relative;
+   top: 10px;
+   left: 2px;
+   border-radius: 400px 400px 400px 400px;
+   width: 175px;
+   height: 60px;
+   border: #45eded 2px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   animation-name: bounce;
+    -moz-animation: bounce 2s;
+    -webkit-animation: bounce 2s;
+    -o-animation: bounce 2s;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+ } 
+ @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+table#t01 {
+    border: solid black 1px;
+    width: 100%; 
+    background-color: #f1f1c1;
+    position: relative;
+    top: 50px;
+    height: -50px;
+    animation-name: fadeIn;
+    -moz-animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
+    -o-animation: fadeIn 4s;    
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: #000033;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+
+.search_box {
+ position: absolute;
+ top: 5px;
+ margin-left: 197px;
+}
+#search input[type="text"] {
+ outline: none;
+ border: 0 none;
+ font: bold 12px Arial,Helvetica,Sans-serif;
+ width: 150px;
+ padding: 6px 15px 6px 35px;
+ text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+ -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inest;
+ -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+ box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+ -webkit-transition: all 0.7s ease 0s;
+ -moz-transition: all 0.7s ease 0s;
+ -o-transition: all 0.7s ease 0s;
+ transition: all 0.7s ease 0s;
+}
+#search input[type="text"]:focus {
+ color: #6a6f75;
+ width: 350px;
+ -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inest; 
+ -moz-box-shadow:  0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inest;
+ box-shadow:  0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inest;
+ text-shadow:  0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inest;
+}
+</style>
+<body>
+
+<div class="headerMenu">
+ <div id="wrapper">
+  <div class="logo">
+   <img src="1498115216_89-NETWORK.ico">
+   <center>
+   <p>InternAccess</p>
+   </center>
+    <div class="search_box">
+     <form action="search.php" method="GET" id="search">
+      <input type="text" name="q" size="60" placeholder="Search ..." />
+     </form>
+    </div>
+  </div>
+ </div>
+</div> 
+
+<h1>    
+ <h2>
+  <ul>
+   <button onclick="Help()">Help</button>
+  </ul>
+ </h2>
+</h1>  
+
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Business</th>
+    <th>Catagory</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>last name</td> 
+    <td>Business</td>
+    <td>Catagory</td>
+  </tr>
+</table>
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Business</th>
+    <th>Catagory</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>last name</td> 
+    <td>Business</td>
+    <td>Catagory</td>
+  </tr>
+</table>
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Business</th>
+    <th>Catagory</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>last name</td> 
+    <td>Business</td>
+    <td>Catagory</td>
+  </tr>
+</table>
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Business</th>
+    <th>Catagory</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>last name</td> 
+    <td>Business</td>
+    <td>Catagory</td>
+  </tr>
+</table>
+<script>
+
+function Help() {
+  // Help instructions 
+  alert("You can either click on the intern listed posts below to submit  you're application. Or to narrow down you're search, use the search bar at the top left corner of the page.");
+  
+}
+
+(function($){
+  var googleUrl = "http://www.google.com?";
+
+ function fetchAndInsertResults(inputText){
+   $.ajax({ 
+     url: googleUrl+inputText, 
+     success: function(data){
+               $('#result').html(data);
+      }
+    });
+ }
+
+  $('#searchbutton').bind('submit',function(){
+    this.preventDefault();
+    var inputText = $('#searchForm').serialize();
+    fetchAndInsertResults(inputText);
+  });
+})(jQuery);</script>
+
+</body>

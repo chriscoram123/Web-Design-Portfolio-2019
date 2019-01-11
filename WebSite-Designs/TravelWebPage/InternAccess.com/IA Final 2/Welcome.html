@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<style>
+
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial;
+ font-size: 12px;
+}
+.headerMenu {
+ background-color: #00B9ED;
+ height: 40px;
+ border-bottom: 0px;
+ padding-left: auto;
+ padding-right: auto;
+ width: 100%;
+}
+#wrapper {
+ margin-left: auto;
+ margin-right: auto;
+ width: 1000%
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
+.logo {
+ width: 15px;
+}
+.logo-img {
+ width: 0px;
+ height: 0px;
+}
+img {
+ max-height: 33px;
+ position: relative;
+ left: 8px;
+ top: 2px;
+}
+
+
+p {
+position: relative;
+left: 50px;
+top: -52px;
+font-size: 22px;
+color: white;
+font: Arial;
+}
+
+.first {
+background: url("RVXX2438 copy.jpg");
+background-size: cover;
+background-position: center;
+height: 310px;
+position: relative;
+top: -60px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.second {
+background: url("DATK8279 copy.jpg");
+background-size: cover;
+background-position: center;
+position: relative;
+top: -32px;
+height: 460px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.third {
+background: url("IMG_5416 copy.jpg");
+background-size: cover;
+background-position: center;
+height: 310px;
+position: relative;
+top: -100px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.SignIn {
+background-color: white;
+height: 300px;
+max-width: 400px;
+border-radius: 100px 100px 100px 100px;
+margin: 20px;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+position: relative;
+top: 68px;
+animation-name: fadeIn;
+ -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+}
+
+.GetStarted {
+background: white;
+background-size: cover;
+background-position: center;
+height: 75px;
+max-width: 400px;
+border-radius: 100px 100px 100px 100px;
+margin: 20px;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+position: relative;
+top: 25px;
+animation-name: fadeIn;
+ -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+}
+h1 {
+color: #000033;
+text-align: center;
+font-size: 45px;
+position: relative;
+top: 10px;
+font: Arial;
+}
+h2 {
+background: white;
+color: #000033;
+text-align: center;
+font-size: 45px;
+position: relative;
+top: 0px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+position: relative;
+top: -150px;
+}
+h4 {
+position: relative;
+top: -60px;
+}
+h5 {
+position: relative;
+top: 30px;
+}
+
+input {
+color: White;
+background: #87cefa;
+text-align: center;
+font-size: 30px;
+position: relative;
+top: -6px;
+border: 1px solid black;
+border-radius: 50px 50px 50px 50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+a {
+color: white;
+font-size: 30px;
+position: relative;
+top: 0px;
+left: -2px;
+}
+button {
+background: #66ccff;
+font-size: 30px;
+font-family: 'Orbitron', sans-serif;
+color: white;
+position: relative;
+top: 2px;
+left: 0px;
+text-align: center;
+border-radius: 400px 400px 400px 400px;
+width: 205px;
+height: 60px;
+border: #45eded 2px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.alert {
+padding: 20px;
+background-color: #66ccff;
+color: white;
+margin-bottom: 15px;
+position: relative;
+top: -10px;
+text-align: center;
+}
+.closebtn {
+margin-left: 15px;
+color: white;
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}
+.closebtn: hover{
+color: black;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+input[type="password"] {
+ position: relative;
+ top: 10px;
+}
+
+</style>
+<body>
+
+<div class="headerMenu">
+ <div id="wrapper">
+  <div class="logo">
+   <img src="1498115216_89-NETWORK.ico">
+   <center>
+   <p>InternAccess</p>
+   </center>
+  </div>
+ </div>
+</div>
+
+<div class="second">
+<center>
+<div class="SignIn">
+<h1>Sign In<h1>
+<form action="SHome.html" method="POSt"
+onsubmit="return myFunction()">
+   <input type="gmail" id="gmail" size="20" Placeholder="Gmail" name="uname" required><br>
+<h4>
+   <input type="password" id="password" size="20" Placeholder="Password" name="psw" required><br></br>
+</h4>
+<h3>
+   <Input type="submit"   id="submit"   Placeholder="submit" onclick="clicked()">
+</h3>
+</form>
+</div><br>
+</center>
+</div>
+
+<center>
+<div class="first">
+<div class="GetStarted">
+ <h1>Get Started</h1><br>
+<form>
+  <button>
+   <a href="BSignUp.html" class="button">Business</a>
+  </button><br></br>
+  <button>
+   <a href="SSignUp.html" class="button">Student</a>
+  </button>
+ </form>
+</div>
+</div>
+</center>
+
+<div class="alert">
+ <span class="closebn"
+   onclick="this.parentElement.style.display="none;">&times;</span>
+Copyright information.
+</div>
+
+<?php>
+mysql_connect("$host", "$username", "$password")or die("cannot connect to server");
+</?php>
+
+<script>
+//Sign Up Requirments 
+function clicked() {
+    var user = document.getElementById("gmail");
+    var pass = document.getElementById("password");
+//User id and password
+    var coruser = "hi";
+    var corpass = "123";
+//user login instructions    
+    if(user.value == coruser) {
+        
+      if(pass.value == corpass) {
+         
+         alert("You are logged in as" + user.value);    
+    
+    }
+    
+    else {
+    
+        alert("Incorrect username or password");
+    
+    }
+    
+    else {
+    
+        alert("Incorrect username or password");
+    
+    }
+    
+  }
+}
+
+function check(form) {
+ if(form.user.value == "Gmail" && form.pswrd.value == "123") {
+  window.open("SHome.html")
+ }
+ else {
+  alert("The gmail and password you have entered does not match")
+ }
+}
+</script>
+
+</body>

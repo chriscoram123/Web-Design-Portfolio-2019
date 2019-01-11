@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+</head>
+<style>
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial;
+ font-size: 12px;
+ background-color: #FBFDFF;
+}
+.headerMenu {
+ background-color: #00B9ED;
+ height: 40px;
+ border-bottom: 0px;
+ padding-left: auto;
+ padding-right: auto;
+ width: 100%;
+}
+#wrapper {
+ margin-left: auto;
+ margin-right: auto;
+ width: 1000%
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
+.logo {
+ width: 15px;
+}
+.logo-img {
+ width: 0px;
+ height: 0px;
+}
+p {
+position: relative;
+left: 50px;
+top: -28px;
+font-size: 22px;
+color: white;
+font: Arial;
+}
+.lg {
+ max-height: 33px;
+ position: relative;
+ left: 8px;
+ top: 2px;
+}
+.profileLeftSideContent {
+ width: 194px;
+ padding-right: 0px;
+ padding-bottom: 5px;
+ padding-top: 5px;
+ padding-left: 0px;
+ height: 200px;
+ background: white;
+ position: relative;
+ top: -1px;
+}
+.postForm {
+ float: right;
+ width: 560px;
+ height: 414px;
+ background-color: #F3F6F9;
+ padding: 5px;
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.profilePosts {
+ float: right;
+ width: 560px;
+ height: 414px;
+ background-color: #DCE5EE;
+ padding: 5px;
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.BK {
+ background-color: #158;
+}
+
+a {
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+ font-size: 24px;
+ background-repeat: no-repeat;
+ padding-top: 19px;
+ padding-bottom: 22px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+a:hover {
+
+}
+.menu {
+ background-color: #00B9ED;
+ height: 30px;
+ border-bottom: 0px;
+ padding-left: auto;
+ padding-right: auto;
+ width: 100%;
+}
+
+</style>
+<body>
+
+<div class="headerMenu">
+ <div id="wrapper">
+  <div class="logo">
+   <img class="lg" src="1498115216_89-NETWORK.ico" />
+   <center>
+   <p>InternAccess</p>
+   </center>
+  </div>
+ </div>
+</div>
+
+<div id="wrapper">
+
+<div class="BK">
+<div class="textHeader1"><?php echo $username; ?>'s Profile
+</div>
+<img src="" height="250" width="200" alt="<?php echo $username; ?>'s" title="<? echo $username; ?>'s Profile" />
+<br />
+<div class="profileLeftSideContent">Some content about this persons profile ...</div>
+<center>
+<div class="menu">
+ <a href="">messages</a>
+ <a href="">saved</a>
+ <a href="">Activity</a>
+</div>
+</center>
+</div>
+
+<center>
+<div class="postForm">Post form will go here ...</div>
+<div class="profilePosts">Your Posts will go here ...</div>
+</center>
+
+<div class="textHeader"><?php echo $username; ?>'s Friends
+</div>
+<img src="#" height="50" width="40"/>&nbsp;&nbsp;
+<img src="#" height="50" width="40"/>&nbsp;&nbsp;
+<img src="#" height="50" width="40"/>&nbsp;&nbsp;
+<img src="#" height="50" width="40"/>&nbsp;&nbsp;
+<img src="#" height="50" width="40"/>&nbsp;&nbsp;
+</div>
+</div>
+
+<script>
+//Help button layout
+function Help() {
+  alert("This page is ment to alert the user of recent activities such as sending applications. Any and all applications will be sent to the business owner's gmail account.");
+  
+}
+
+</script>
+</body>

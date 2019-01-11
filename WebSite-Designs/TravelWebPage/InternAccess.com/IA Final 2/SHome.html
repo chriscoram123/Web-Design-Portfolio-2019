@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+</head>
+<style>
+
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial;
+ font-size: 12px;
+}
+.headerMenu {
+ background-color: #00B9ED;
+ height: 40px;
+ border-bottom: 0px;
+ padding-left: auto;
+ padding-right: auto;
+ width: 100%;
+}
+#wrapper {
+ margin-left: auto;
+ margin-right: auto;
+ width: 1000%
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
+.logo {
+ width: 15px;
+}
+.logo-img {
+ width: 0px;
+ height: 0px;
+}
+img {
+ max-height: 33px;
+ position: relative;
+ left: 8px;
+ top: 2px;
+}
+
+
+p {
+position: relative;
+left: 50px;
+top: -28px;
+font-size: 22px;
+color: white;
+font: Arial;
+}
+
+.alert {
+background: blue;
+}
+A {
+ont-family: 'Orbitron', sans-serif;
+text-align: center;
+color: white;
+font-size: 28px;
+}
+
+.Logout {
+position: relative;
+top: 30px;
+animation-name: slideInRight 1s;
+    -moz-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+ul {
+ont-family: 'Orbitron', sans-serif;
+text-align: center;
+color: black;
+font-size: 25px;
+position: relative;
+left: -10px;
+}
+h1 {
+text-align: center;
+position: relative;
+left: -178px;
+}
+h2 {
+position: relative;
+top: -12px;
+left: -7px;
+}
+h3 {
+position: relative;
+top: -27px;
+left: -5px;
+}
+.first {
+background: url("BCMB5423 copy.jpg");
+height: 300px;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+position: relative;
+top: -60px;
+margin: 40px 0 0 0;
+border-radius: 100px 100px 100px 100px;
+animation-name: fadeIn;
+ -moz-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.second {
+background: url("CZAL0874 copy.jpg");
+height: 300px;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+position: relative;
+top: -60px;
+margin: 40px 0 0 0;
+border-radius: 100px 100px 100px 100px;
+animation-name: fadeIn;
+ -moz-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+} 
+.third {
+background: url("FDEC7198 copy 2.jpg");
+height: 300px;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+position: relative;
+top: -60px;
+margin: 40px 0 0 0;
+border-radius: 100px 100px 100px 100px;
+animation-name: fadeIn;
+ -moz-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.fourth {
+background: url("QSYF2014 copy 2.jpg");
+height: 300px;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+position: relative;
+top: -60px;
+margin: 40px 0 0 0;
+border-radius: 100px 100px 100px 100px;
+animation-name: fadeIn;
+ -moz-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+background: #66ccff;
+font-size: 30px;
+font-family: 'Orbitron', sans-serif;
+color: white;
+position: relative;
+top: -35px;
+left: 7px;
+text-align: center;
+border-radius: 400px 400px 400px 400px;
+width: 175px;
+height: 60px;
+border: #45eded 2px;
+animation-name: bounce;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -moz-animation: bounce 2s;
+    -webkit-animation: bounce 2s;
+    -o-animation: bounce 2s;   
+}
+
+#menu a {
+ color: #FFFFFF;
+ text-decoration: none;
+ font-size: 14px;
+ position: relative;
+ top: 40px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+</style>
+<body>
+
+<div class="headerMenu">
+ <div id="wrapper">
+  <div class="logo">
+   <img src="1498115216_89-NETWORK.ico">
+   <center>
+   <p>InternAccess</p>
+   </div>
+   </div>
+   </div>
+</div>
+
+<div class="Logout" onclick="logout()">
+<a href="#" class="btn btn-info btn-lg">
+  <span class="glyphicon glyphicon-log-out"></span> Log out
+</a>
+</div>
+
+<h1>    
+ <h2>
+  <ul>
+   <button onclick="Help()">Help</button>
+  </ul>
+ </h2>
+</h1>  
+
+<div class="first">
+<ul>
+<A HREF="Profile copy 2.html">Profile</A>
+</ul>
+</div>
+<div class="second">
+<ul>
+<A HREF="Profile copy 2.html">Find Friends</A>
+</ul>
+</div>
+<div class="third">
+<ul>
+<A HREF="Opportunities.html">Opportunities</A>
+</ul>
+</div>
+<div class="fourth">
+<ul>
+<A HREF="Inter-Link About.html">About InternAccess</A>
+</ul>
+</div>
+
+<script>
+//Help button layout
+function Help() {
+  alert("To navigate through Intern Access, please click on the link at the top of each icon. Each link will take you to another page in Intern Link depending on the links description.");
+}
+
+function logout() {
+  var req = new XMLHttpRequest();
+  req.open("POST", "Welcome page.html", true);
+  req.withCredentials = true;
+  req.send();
+
+  document.getElementById('log_form').style.display = '';
+  document.getElementById('logged_user').style.display = 'none';
+  document.getElementById('logout_button').style.display = 'none';
+  document.getElementById('content').style.display = 'none';
+  hide_error();
+}
+</script>
+</body>

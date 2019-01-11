@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1>
+<link rel="stylesheet"
+href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js">
+<script src=""></script>
+<script src=""></script>
+<style>
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial;
+ font-size: 12px;
+}
+.headerMenu {
+ background-color: #00B9ED;
+ height: 40px;
+ border-bottom: 0px;
+ padding-left: auto;
+ padding-right: auto;
+ width: 100%;
+}
+#wrapper {
+ margin-left: auto;
+ margin-right: auto;
+ width: 1000%
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
+.logo {
+ width: 15px;
+}
+.logo-img {
+ width: 0px;
+ height: 0px;
+}
+img {
+ max-height: 33px;
+ position: relative;
+ left: 8px;
+ top: 2px;
+}
+
+p {
+position: relative;
+left: 50px;
+top: -49px;
+font-size: 22px;
+color: white;
+}
+
+.Logout {
+animation-name: slideInRight 1s;
+    -moz-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+}
+
+div.scrollmenu {
+    background-color: #000033;
+    overflow: auto;
+    white-space: nowrap;
+    -moz-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+     border-radius: 200px 200px 0px 0px;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    -moz-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+}
+
+div.scrollmenu a:hover {
+    background-color: #66ccff;
+ -moz-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+}
+
+h1 {
+   text-align: center;
+}
+h2 {
+   position: relative;
+   top: 12px;
+   left: -7px;
+}
+h5 {
+   position: relative;
+   top: -15px;
+   left: -2px;
+   font-size: 25px;
+}
+h6 {
+   text-align: center;
+   font-size: 26px;
+}
+a {
+   color: white;
+   font-size: 26px;
+   font-family: 'Roboto', sans-serif;
+}
+ul {
+   ont-family: 'Orbitron', sans-serif;
+   text-align: center;
+   color: black;
+   font-size: 25px;
+   position: relative;
+   left: -18px;
+   top: -26px;
+}
+button {
+   background: #66ccff;
+   font-size: 30px;
+   font-family: 'Orbitron', sans-serif;
+   color: white;
+   position: relative;
+   top: 10px;
+   left: 2px;
+   border-radius: 400px 400px 400px 400px;
+   width: 176px;
+   height: 60px;
+   border: #45eded 2px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   animation-name: bounce;
+    -moz-animation: bounce 2s;
+    -webkit-animation: bounce 2s;
+    -o-animation: bounce 2s;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+ } 
+ @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+table#t01 {
+    border: solid black 1px;
+    width: 100%; 
+    background-color: #f1f1c1;
+    position: relative;
+    top: 50px;
+    height: -50px;
+    animation-name: fadeIn;
+    -moz-animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
+    -o-animation: fadeIn 4s;    
+}
+table#t02 {
+    border: solid black 1px;
+    width: 100%; 
+    background-color: #f1f1c1;
+    position: relative;
+    top: -3px;
+    height: -50px;
+    animation-name: fadeIn;
+    -moz-animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
+    -o-animation: fadeIn 4s;    
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: #000033;
+}
+table#t02 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t02 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t02 th {
+    color: white;
+    background-color: #000033;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+
+span {
+  content: "\260D";
+}
+
+</style>
+</head>
+<body>
+
+<div class="headerMenu">
+ <div id="wrapper">
+  <div class="logo">
+   <img src="1498115216_89-NETWORK.ico">
+   <center>
+   <p>InternAccess</p>
+   </center>
+  </div>
+ </div>
+</div> 
+
+<center>
+<h1>    
+ <h2>
+  <ul>
+   <button onclick="Help()">Help</button>
+  </ul>
+ </h2>
+</h1>  
+<div class="scrollmenu">
+  <a href="Eco Internships.html">Internships</a>
+  <a href="Eco Careers.html">Careers</a>
+  <a href="Eco Temps.html">Temporaries</a>
+  ...
+</div>
+
+<ul data-role="listview" data-inset="true">
+  <span>&#9741;</span>
+  <a href="#"><img src="AIFR6694 copy.jpg"></a>
+</ul>
+
+<div class="">
+<script type="text/javascript" src="">
+  some_variable = "<?php echo $_POST["company_name"]?>"
+  some_variable = "<?php echo $_POST["job"]?>"
+  some_variable = "<?php echo $_POST["hourly_pay"]?>"
+  some_variable = "<?php echo $_POST["yearly_pay"]?>"
+  some_variable = "<?php echo $_POST["text"]?>"
+</script> 
+</div>
+
+<div data-role="page" id="pageone">
+<div data-role="main" class="ui-content">
+<ul data-role="listview" data-inset="true">
+  <li>
+    <a href="#">
+    <img src="AIFR6694 copy.jpg">
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a free, open-source web browser. Released in 2008.</p>
+    </a>
+  </li>
+</ul>
+</div>
+</div>
+
+<script>
+
+function Help() {
+  alert("Welcome To The Economics Opportunity Page: On this page you have the options to either click on job listings posted by Economic businesses that have uploaded below in the activity stream. Or you can click on the following three options in the menu bar to narrow down you're search.");
+  
+}
+
+var obj = localStorage.getItem("obj");
+console.log(JSON.parse(obj));
+
+</script>
+</body>
