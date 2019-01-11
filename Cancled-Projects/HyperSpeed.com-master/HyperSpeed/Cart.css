@@ -1,0 +1,185 @@
+/*
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+*/
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+ margin: 5px;
+ padding: 5px;
+}
+input {
+ position: relative;
+ top: -200px;
+ left: 0px;
+ width: 400px;
+ height: 20px;
+ border: 1px solid black;
+ float: left;
+ padding: 5px;
+ margin: 5px;
+}
+button {
+ height: 30px;
+ width: 330px;
+}
+/*______END HTML TAGS______*/
+
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.img1 {
+ float: left;
+ border: solid black 2px;
+}
+.search-image-icon {
+ border: solid black 1px;
+ position: relative;
+ left: -10px;
+ top: -70px;
+}
+.menu-icon {
+ position: relative;
+ left: 1600px;
+ top: -130px;
+ border: solid black 2px;
+}
+.box1 {
+ 
+ border: 2px solid black;
+}
+.box2 {
+ width: 800px;
+}
+.box3 {
+ border: solid black 2px;
+}
+.header {
+ height: 70px;
+ border: solid black 2px;
+}
+.Input-Data {
+ height: 150px;
+}
+.Input-Data-Left {
+ border: solid red 2px;
+ position: relative;
+ top: 215px;
+}
+.Input-Data-Right {
+ border: solid blue 2px;
+ position: relative;
+ top: 225px;
+ height: 350px;
+}
+.Item-Image {
+ float: left;
+ border: solid blue 2px;
+ height: 20px;
+ width: 20px;
+}
+.Cart-Item-Div {
+ border: solid black 2px;
+ width: 400px;
+ float: left;
+}
+.Checkout-Image {
+ border: solid blue 2px;
+ float: right;
+ height: 200px;
+ width: 388px;
+}
+.advertisment-Right {
+ border: solid black 2px;
+ float: left;
+ height: 800px;
+ width: 500px;
+}
+.main-box {
+ border: solid black 2px;
+ height: 1000px;
+ padding: 2px;
+ margin: 2px;
+}
+.main-box-1 {
+    border: solid black 2px;
+    height: 1000px;
+    padding: 2px;
+    margin: 2px;
+}
+.footer {
+    border: 2px solid black;
+    height: 50px;
+    position: relative;
+    top: 690px;
+}
+.Cart-Box-Description {
+ 
+}
+.Payment-Options {
+ position: relative;
+ top: -90px;
+ left: 355px;
+ float: right;
+ width: 300px;
+ height: 100px;
+ border: solid black 2px;
+}
+.Payment-Option-One-Img {
+ border: solid black 2px;
+ position: relative;
+ top: 10px;
+}
+.Payment-Option-Two-Img {
+ border: solid black 2px;
+ position: relative;
+ top: 10px;
+}
+.Payment-Option-Three-Img {
+ border: solid black 2px;
+ position: relative;
+ top: 10px;
+}
+.Logo-Image {
+ position: relative;
+ top: 0px;
+}
+/*______END CLASS NAMES______*/
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+
+
+
+
+
+/*_______END KEY FRAMES_______*/
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+@import '~@angular/material/theming';
+/*________END BOOTSTRAP/IMPORTS_______*/
+/*______END STYLESHEET FUNCTIONS______*/

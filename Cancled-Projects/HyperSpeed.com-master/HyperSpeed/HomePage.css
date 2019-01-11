@@ -1,0 +1,243 @@
+
+/*
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+*/
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+ margin: 5px;
+ padding: 5px;
+ background-image: linear-gradient(to bottom, #EDEDED, #CAD6F0);
+}
+h3 {
+ border: solid black 2px;
+ position: relative;
+ top: -10px;
+ left: 0px;
+ border-radius: 200px 200px 0px 0px;
+ width: 150px;
+ font-size: 25px;
+}
+input {
+ position: relative;
+ top: -60px;
+ width: 800px;
+ height: 30px;
+ border: 1px solid black;
+}
+p {
+ position: relative;
+ top: -0px;
+ left: 120px;
+ font-size: 35px;
+}
+h4 {
+ font-size: 28px;
+}
+h5 {
+ font-size: 30px;
+ position: relative;
+ top: -50px;
+ border: solid black 2px;
+}
+/*______END HTML TAGS______*/
+
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.one {
+ border: solid black 1px;
+ height: 70px;
+ width: 2400px;
+ background: #9CBFF7;
+}
+.two {
+ border: solid black 2px;
+ height: 400px;
+ background: #9CBFF7;
+}
+.three {
+ border: solid black 2px;
+ height: 400px;  
+ background: #9CBFF7;
+}
+.four {
+ border: solid black 2px;
+ height: 400px;  
+ background: #9CBFF7;
+}
+.main {
+width: 1600px;
+padding: 5px;
+margin: 5px;
+position: relative;
+left: 400px;
+background: #97D7F6;
+}
+.img1 {
+ float: left;
+ border: solid black 2px;
+}
+.img2 {
+ float: right;
+ border: solid black 2px;
+ position: relative;
+ top: -100px;
+ left: -40px;
+}
+.img3 {
+ border: solid black 2px;
+ position: relative;
+ top: -14px;
+}
+.img4 {
+ border: solid black 2px;
+ position: relative;
+ top: -74px;
+}
+.box1 {
+ border: solid black 2px;
+ height: 420px;
+}
+.box2 {
+ float: left;
+ width: 550px;
+ border: solid black 2px;
+ height: 323px;
+ position: relative;
+ left: -250px;
+}
+.box3 {
+ float: left;
+ border: solid black 2px;
+ width: 550px;
+}
+.box4 {
+ float: right;
+ border: solid black 2px;
+ width: 550px;
+ height: 60px;
+}
+.box5 {
+ border: solid black 2px;
+ float: right;
+ width: 300px;
+ position: relative;
+ left: -310px;
+ top: -10px;
+ height: 250px;
+ border-radius: 200px 200px 200px 200px;
+}
+.box6 {
+ border: solid black 2px;
+ float: right;
+ width: 300px;
+ position: relative;
+ left: 460px;
+ top: -256px;
+ height: 250px;
+ border-radius: 200px 200px 200px 200px;
+}
+.box7 {
+ height: 300px;
+ max-width: 1000px;
+ position: relative;
+ top: -18px;
+ left: -80px;
+}
+.box8 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+}
+.box9 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+ position: relative;
+ left: 120px;
+}
+.box91 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+ position: relative;
+ left: 120px;
+ top: -80px;
+}
+.box10 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+ position: relative;
+ left: 230px;
+}
+.box101 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+ position: relative;
+ left: 230px;
+ top: -80px;
+}
+.footer {
+ border: 2px solid black;
+ height: 80px;
+ width: 2400px;
+ position: relative;
+ left: 1px;
+}
+.ad1 {
+ float: left;
+ position: relative;
+ top: 30px;
+ left: -365px;
+ width: 300px;
+ border: solid black 2px;
+ height: 1000px;
+}
+.ad2 {
+ float: right;
+ position: relative;
+ top: 30px;
+ left: 350px;
+ width: 300px;
+ border: solid black 2px;
+ height: 1000px;
+}
+/*______END CLASS NAMES______*/
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+
+
+
+
+
+/*_______END KEY FRAMES_______*/
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+
+
+/*________END BOOTSTRAP/IMPORTS_______*/
+/*______END STYLESHEET FUNCTIONS______*/

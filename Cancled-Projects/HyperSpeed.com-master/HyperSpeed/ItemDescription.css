@@ -1,0 +1,251 @@
+/*
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+*/
+/*____________________________________________________________________________________________________________*/
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+ padding: 5px;
+ margin: 5px;
+}
+main {
+ height: 700px;
+ width: 1700px;
+}
+h1 {
+ 
+}
+h2 {
+ position: relative;
+ left: -400px; 
+}
+hr {
+ position: relative;
+ top: 100px;
+ width: 400px;
+}
+input {
+ position: relative;
+ top: -80px;
+ left: 8px;
+ width: 800px;
+ height: 30px;
+ border: 1px solid black;
+}
+/*______END HTML TAGS______*/
+
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.box1 {
+ float: left;
+ width: 800px;
+ position: relative;
+ top: 20px;
+ left: -260px;
+}
+.img3 {
+ float: left;
+ position: relative;
+ top: 40px;
+}
+.img4 {
+ float: left;
+ position: relative;
+ left: 20px;
+ top: 40px;
+}
+.img5 {
+ float: left;
+ position: relative;
+ left: 50px;
+ top: 40px;
+}
+.img6 {
+ float: left;
+ position: relative;
+ left: 80px;
+ top: 40px;
+}
+.img7 {
+ float: left;
+ position: relative;
+ left: 100px;
+ top: 40px;
+}
+.img8 {
+ border: solid black 1px;
+}
+.one {
+ border: solid black 4px;
+ height: 600px;
+ width: 800px;
+ float: left;
+ position: relative;
+ left: 450px;
+ padding: 5px;
+ margin: 5px;
+}
+.two {
+ border: solid black 4px;
+ height: 600px;
+ width: 800px;
+ float: left;
+ position: relative;
+ left: 450px;
+ padding: 5px;
+ margin: 5px;
+}
+.header {
+ height: 70px;
+ border: solid black 2px;
+}
+.footer {
+ border: 2px solid black;
+ height: 80px;
+ position: relative;
+ top: 1300px;
+}
+.imgdiv {
+ float: left;
+ height: 350px;
+ width: 385px;
+ border: 2px solid black;
+}
+.imgdiv2 {
+float: right;
+height: 595px;
+width: 400px;
+border: 2px solid black;
+position: relative;
+left: 0px;
+}
+.imgdiv3 {
+ float: left;
+ border: solid black;
+ width: 383px;
+ height: 235px;
+ position: relative;
+ top: 5px;
+}
+.bottom-section {
+ border: solid black;
+ width: 795px;
+ height: 305px;
+ position: relative;
+ top: 140px;
+}
+.bottom-section-left {
+ float: left;
+ border: solid black 2px;
+ height: 300px;
+ width: 450px;
+ position: relative;
+ top: 1px;
+}
+.bottom-section-right {
+ float: right;
+  border: solid black 2px;
+  height: 300px;
+  width: 330px;
+}
+.show-more {
+ border: solid black 2px;
+ position: relative;
+ top: 70px;
+}
+.chart {
+ border: solid black 2px;
+ position: relative;
+ top: 130px;
+}
+.search-image-icon {
+ border: solid black 1px;
+ position: relative;
+ left: -10px;
+ top: -70px;
+}
+.ad1 {
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    width: 250px;
+    border: solid black 2px;
+    height: 1000px;
+}
+.ad2 {
+    float: right;
+    position: relative;
+    top: 30px;
+    left: -80px;
+    width: 250px;
+    border: solid black 2px;
+    height: 1000px;
+}
+.menu-icon {
+ position: relative;
+ left: 1600px;
+ top: -130px;
+ border: solid black 2px;
+}
+.title {
+ border: solid black 2px;
+ 
+}
+/*______END HTML TAGS______*/
+
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+
+
+
+
+/*______END CLASS NAMES______*/
+
+
+
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+
+
+
+/*_______END KEY FRAMES_______*/
+
+
+
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+@import '~@angular/material/theming';
+/*________END BOOTSTRAP/IMPORTS_______*/
+/*<!--______END STYLESHEET FUNCTIONS______-->*/
+

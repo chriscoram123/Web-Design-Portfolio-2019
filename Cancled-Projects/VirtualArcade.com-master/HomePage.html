@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<!--- ==== START HEAD FUNCTIONS ==== --->
+<!--- ==== START HEAD LIST ==== --->
+<!-- ONE: Providing links from outside souces or other files to improve development of web template -->
+<!--______END HEAD LIST______-->
+<head>
+ <title>Hompage</title>
+ <!-- ==== START LINK DESCRIPTION ==== -->
+ <!-- Area of head will be used to connect links regarding javascript/bootsrap as well as other outside sources -->
+ <!-- END LINK DESCRIPTION -->
+ <!--______________________-->
+ <meta charset="UTF-8" />
+ <meta name="HomePage" content="Main content for website"> 
+ <meta name="Sign Up Page" content="Page containing sign up content"> 	
+ <meta name="Contact Page" content="Page containing contact information" />
+ <meta name="3D Page" content="Page containing 3D games" />
+ <meta name="2D Page" content="Page containing 2D games" />
+	  
+ <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <!--______END LINKS______-->
+</head>
+<!--______END HEAD FUNCTIONS______-->
+
+
+
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+<style>
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+    body {
+      margin: 5px;
+      padding: 5px;
+      background-image: linear-gradient(to bottom, #D3F5EE 100%);
+      background-position: center;
+      background-size: cover;
+    }
+    main {
+     height: 350px;
+    }
+    h1 {
+      position: relative;
+      top: 0px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 20px;
+    }
+    h2 {
+     background: black; 
+     width: 450px;
+     height: 18px;
+     position: relative;
+     top: 12px;
+     color: white;
+     padding: 3px;
+     margin: 3px;
+     border: solid black 1px;
+     box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.3);
+     animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+      font-family: 'Orbitron', sans-serif;  
+    }
+    button:active {background: lightcoral;}
+    button {
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+     background-image: linear-gradient(to bottom, #7ED6E2, white);
+     border-radius: 1px 1px 1px 1px; 
+     font-size: 15px;
+     position: relative;
+     top: -4px;
+    }
+    article {
+     
+    }
+    text {
+      color: red;
+      position: relative;
+      top: -14px;
+      font-size: 12px;
+    }
+/*______END HTML TAGS______*/
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+    .rash {
+      height: 50px;
+      border-radius: 40px 40px 40px 40px;
+      position: relative;
+      top: -103px;
+      left: 0px;
+    }
+    .dropdown {
+      float: right;
+    }
+    .dropdown-content {
+    display: none;
+    position: relative;
+    top: -120px;
+    background-color: #725AB5;
+    width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 16px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+    .desc {
+    padding: 15px;
+    text-align: center;
+    }
+    .navbar {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #FF7546;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+    top: 0px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+    animation-name: fadeIn;
+    -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+  position: relative;
+  top: 8px;
+}
+    p.p1:hover, p.p1:active{font-size: 170%;}
+    .p1 {
+      background-color: rgb(172, 14, 172);
+      color: white;
+      font-size: 25px; 
+      font-family: 'Orbitron', sans-serif;
+    }
+    .p2 {
+      font-size: 18px;
+    }
+    p.p3:hover, p.p3:active{font-size: 170%;}
+    .p3 {
+     font-size: 25px;
+     background-image: linear-gradient(to bottom, #8D82E8, #7D9FE6);
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+     font-family: 'Orbitron', sans-serif;
+    }
+    p.p4:hover, p.p4:active{font-size: 170%;}
+    .p4 {
+     font-size: 25px;
+     background: #B17AE6;
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+     font-family: 'Orbitron', sans-serif;
+    }
+    .div1 {
+      background: rgba(0, 0, 0, 0.6);
+      height: 135px;
+      padding: 5px;
+      margin: 5px;
+      position: relative;
+      top: 0px;
+    }
+    .h1 {
+      position: relative;
+      left: 45px;
+      top: -43px;
+    }
+    .footer {
+     position: relative;
+     top: 240px;
+     left: 0px;
+     background-image: linear-gradient(to bottom, #7ED6E2, white);
+     padding: 5px;
+     margin: 5px;
+     animation-name: slideInRight;
+      -moz-animation: slideInRight 1s;
+      -webkit-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+    }
+    .one {
+     background: url("papers.co-vc96-triangle-of-blue-patterns-8-wallpaper.jpg");
+     background-size: cover;
+     background-position: center;
+     margin: 5px;
+     padding: 5px;
+     position: relative;
+     top: 0px;
+     height: 410px;
+     animation-name: slideInRight;
+      -moz-animation: slideInRight 1s;
+      -webkit-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+    }
+    .md1 {
+     background-image: linear-gradient(to bottom, #7ED6E2, #FFBABA 100%);
+     height: 30px;
+    }
+    .img2 {
+      position: relative;
+      top: -4px;
+    }
+    .img3 {
+     position: relative;
+     top: 8px;
+     border-radius: 50px 50px 50px 50px;
+    }
+    .img4 {
+     position: relative;
+     top: 2px;
+    }
+    .ar1 {
+      max-width: 450px;
+      height: 330px;
+      background-image: linear-gradient(to bottom, #7ED6E2, #B17AE6);
+      position: relative;
+      top: 10px;
+      margin: 3px;
+      padding: 3px;
+      box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.3);
+      animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+    }
+    .arp {
+      height: 170px;
+      max-width: 250px;
+      position: relative;
+      top: -20px;
+      background: white;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(to right, #95CFF2, #91F4C4 100%);
+    }
+    .arp1 {
+      height: 200px;
+      max-width: 250px;
+      position: relative;
+      top: -9px;
+      background: white;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(to right, #95CFF2, #91F4C4 100%);
+    }
+    .arpp {
+      height: 150px;
+      max-width: 210px;
+      position: relative;
+      top: -5px;
+      background: white;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(to bottom, #7ED6E2, #FFBABA 100%);
+    }
+    .header {
+      background-image: linear-gradient(to bottom, #7ED6E2, white);
+      height: 50px;
+      padding: 5px;
+      margin: 5px;
+      animation-name: slideInRight;
+      -moz-animation: slideInRight 1s;
+      -webkit-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+   }
+    .arheader {
+      border: solid black 1px;
+      background: black;
+      color: white;
+      margin: 5px;
+      padding: 5px;
+      height: 40px;
+      width: 440px;
+      position: relative;
+      left: -6px;
+      top: -5px;
+    }
+    .ar2 {
+      border: solid black 1px;
+      height: 260px;
+      width: 450px;
+      position: relative;
+      top: 0px;
+      background-image: linear-gradient(to right, #95CFF2, #91F4C4 100%);
+      position: relative;
+      left: 0px;
+    }
+    .ar3 {
+      border: solid black 1px;
+      height: 259px;
+      position: relative;
+      top: -4px;
+      background-image: linear-gradient(to right, #95CFF2, #91F4C4 100%);
+      left: 0px;
+    }
+    .Mainbox {
+      height: 850px;
+    }
+    .sidecontent {
+      height: 600px;
+      width: 450px;
+      position: relative;
+      top: 17px;
+      background-image: linear-gradient(to bottom, #D6B0EA, #ADD8E8 100%);
+      margin: 10px;
+      padding: 10px;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+      animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+    }
+    .md11 {
+     height: 200px;
+     padding: 5px;
+     margin: 5px;
+    }
+    .md2 {
+     float: left;
+     width: 380px;
+     background-image: linear-gradient(to bottom, #7ED6E2, #B17AE6);
+     position: relative;
+     top: 15px;
+     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    }
+    .md22 {
+     height: 260px;
+     position: relative;
+     top: -114px;
+     background: url("1sLB.gif");
+     background-size: cover;
+     background-position: center;
+     padding: 5px;
+     margin: 5px;
+     animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+    }
+    .cnd {
+      float: left;
+    }
+    .sbk {
+      background: url("shapes1_1.gif");
+      background-size: cover;
+      background-position: center;
+      height: 650px;
+      position: relative;
+      top: -90px;
+    }
+/*______END CLASS NAMES______*/
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+    @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+/*_______END KEY FRAMES_______*/
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+@import '~@angular/material/theming';
+/*________END BOOTSTRAP/IMPORTS_______*/
+
+</style>
+<!--______END STYLESHEET FUNCTIONS______-->
+
+
+
+<!--- ==== START BODY FUNCTIONS ==== --->
+<!--- ==== START BODY FUNCTION LIST ==== --->
+<!-- FUNCTIONS INCLUDE -->
+<!-- ONE: Creating HTML Tags as a bases for the webtemplate -->
+<!-- TWO: Laying down divs and areas that content will likely take up -->
+<!-- THREE: Developing backend software to assist with user interface functionality -->
+<!--- END BODY FUNCTION LIST --->
+<!--_________________________________-->
+<body>
+<!--- ==== START HEADER DESCRIPTION === --->
+<!-- Header will contain logo, menu icon, and the website title -->
+<!--- END HEADER DESCRIPTION --->
+<!--_____________________________________-->
+<!--- ==== START HEADER ==== --->
+ <header>
+  <div class="header" id="header">
+   <img class="img1" src="maximusscreen_grande_aba2973c-3ea6-4a38-af68-a6ca5affd437.png" height=50px width=40px>
+    <h1 class="h1">Virtual_Arcade</h1>
+<!--- ==== START DROP DOWN ==== --->   
+<div class="dropdown fix">
+    <span><img class="rash" src="Zk519Ao.gif"></span>
+    <div class="dropdown-content">
+      <center>
+        <a href="">Online Gaming</a>
+        <a href="">Online Gaming</a>
+        <a href="">Online Gaming</a>
+        <a href="">Online Gaming</a>
+      </center>  
+    </div>
+  </div>
+<!--______END DROP DOWN______-->
+  </div>
+ </header>
+<!--______END HEADER______-->
+
+<!--- ==== START MAIN CONTENT DESCRIPTION ==== --->
+<!-- Main content will display Virtual Arcade's purpose to the viewer -->
+<!--- END MAIN CONTENT DESCRIPTION --->
+<!--___________________________________________-->
+<!--- ==== START MAIN CONTENT ==== --->
+ <main>
+  <div class="one">
+  <center>    
+   <h2>Welcome To Virtual Arcade</h2>
+    <article class="ar1">
+      <div class="div1">
+      <img class="img2" src="Zk519Ao.gif" height=144px width=250px>
+      </div>
+    </hr>
+       <div class="arp">
+        <p class="p1">About</p>
+        <p class="p2">
+        Virtual Arcade is a fun 
+        interactive experience 
+        for gamers/hobbiests alike.
+        </p>
+        <button><a href="Transition_Page_1.html">Contact Us</a></button>
+       </div>
+    </article>
+  </center>
+  </div>
+ </main>
+<!--______END MAIN CONTENT______-->
+
+<!--- ==== START MAIN BOX DESCRIPTION ==== --->
+<!-- MAinbox will hold most content regarding web application's functions -->
+<!-- Mainbox will also be used as a container to hold all divs regarding middle and side content -->
+<!--- END MAIN BOX DESCRIPTION --->
+<!--________________________________________-->
+<!--- ==== START MAINBOX ===== -->
+<div class="Mainbox">
+<!--- ==== START MIDDLE/SIDE CONTENT ==== --->
+<div class="MiddleBox">
+<div class="md11">  
+</div> 
+<div class="md22">   
+ <div class="md2">
+  <article>
+      <center>
+      <div class="arp1">
+          <p class="p1">COMING SOON</p>
+          <div class="cnd">
+          <a href="">Online Gaming</a>
+          <a href="">More Detailed Games</a>
+          <a href="">Faster FPS</a>
+          <a href="">Open World</a>
+          <br>
+          <p>
+           Small changes will will be updated
+           and notified to signed users.
+          </p>
+           <button><a href="Transition_Page_2.html">Sign Up Now</a></button>
+          </div>
+      </div> 
+      </center>    
+  </article>   
+ </div>   
+</div> 
+<center>  
+<!--- ==== START SIDE CONTENT ==== --->  
+<div class="sbk">
+    <div class="sidecontent">
+        <div class="arheader">
+         <h1>Video Games</h1>   
+        </div>
+        <article class="ar2">
+            <img class="img3" src="Zk519Ao.gif" width="75px" height="75px">
+            </hr>
+            <div class="arpp">
+                <p class="p3">3D GAMES</p>
+                <p class="p2">
+                  Play our newest 3D games!
+                  Hope you like space!
+                </p>
+                <button><a href="Transition_Page_3.html">3D Games</a></button>
+            </div>
+        </article>
+        <br>
+        <article class="ar3">
+            <img class="img3" src="2d3d2.gif" width="75px" height="75px">
+            </hr>
+            <div class="arpp">
+                <p class="p4">2D GAMES</p>
+                <p class="p2">
+                    Play out newest 2D games!
+                    Remember MegeMan?
+                </p>
+                <button><a href="Transition_Page_4.html">2D Games</a></button>
+            </div>
+        </article>
+    </div>  
+</div>
+</div>
+<!--______END SIDE CONTENT______--> 
+</center>
+</div>
+<!--______END MAINBOX______-->
+
+
+<!--- ==== START FOOTER DESCRIPTION ==== --->
+<!-- Footer will be used to contain all copyright information regarding the original owners of said video games. And the non profit use of images, gifs, etc.-->
+<!--- ==== END FOOTER DESCRIPTION ==== -->
+<!--______________________________________-->
+<!--- ==== START FOOTER ==== --->
+<footer>
+    <center>  
+     <div class="footer">
+     <p>*All video games provided on Virtual Arcade, originally belong to the owner. For more information contact the owner using the contact link above</p> 
+     <br>
+     <text>WARNING: CAUTION IS ADVISED TO USERS WHO HAVE EXPERIENCED SEZUIRES OR HAVE A HISTORY OF EPILEPSY! CONTINUE AT YOUR OWN RISK! </text>
+     </div>
+    </footer>
+    </center>    
+<!--______END FOOTER______--> 
+
+
+<!--- ==== START JAVASCRIPT FUNCTIONS ==== --->
+<!--- LIST OF FUNCTIONS --->
+<!-- ONE: Warning to all users that are epileptic or prone to seizures -->
+<!-- ONE/1: Advisory to play on a device with a keyboard -->
+<!-- TWO: Pixel Alpahbet for website header -->
+<!-- THREE: Slide in and out side menu from clicking menu icon -->
+<!-- FOUR: Transition from one page to another, styled effects.-->
+<!--- END LIST OF FUNCTIONS-->
+<!--_______________________________________-->
+<script>
+/*     
+*----------------------------------------------------------------
+* START HEADER BACKGROUND CHANGER!
+*----------------------------------------------------------------
+*/
+var colorOne = "#8D82E8";
+var colorTwo = "#7ED6E2";
+var colorThree= "#D6B0EA";
+var colorFour = "#ADD8E8";
+var colorFive = "#B17AE6";
+var color = [colorOne, colorTwo, colorThree, colorFour, colorFive];
+function change() {
+for (i=0; i <color.length; i++)  {
+ /* Set an interval for time */
+ document.getElementByTagName("header").style.backgroundColor = color;
+ }
+}
+/*     
+*----------------------------------------------------------------
+* END HEADER BACKGROUND CHANGER!
+*----------------------------------------------------------------
+*/    
+/*     
+*----------------------------------------------------------------
+* START FONT X,Y,Z POSITION CHANGE ONMOUSEENTER/EXIT!
+*----------------------------------------------------------------
+*/
+btn = document.getElementsByClassName("");
+var rect = element.getBoundingClientRect();
+function anglePosition() {
+     btn.onmouseover.style.
+     btn.onmouseexit.style.
+}
+/*     
+*----------------------------------------------------------------
+* END FONT X,Y,Z POSITION CHANGE ONMOUSEENTER/EXIT!
+*----------------------------------------------------------------
+*/   
+/*     
+*----------------------------------------------------------------
+* START STYLED WEBPAGE TRANSITION!
+*----------------------------------------------------------------
+*/
+
+
+/*     
+*----------------------------------------------------------------
+* END STYLED WEBPAGE TRANSITION!
+*----------------------------------------------------------------
+*/  
+/* EXECUTE FUNCTIONS +++ */
+change();
+anglePosition();
+</script>
+<!--______END JAVASCRIPT FUNCTIONS______-->
+</body>
+<!--______END BODY FUNCTIONS______-->
+</html>

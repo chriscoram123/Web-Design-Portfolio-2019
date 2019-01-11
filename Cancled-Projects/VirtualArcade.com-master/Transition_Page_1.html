@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--- ==== START HEAD FUNCTIONS ==== --->
+<!--- ==== START HEAD LIST ==== --->
+<!-- ONE: Providing links from outside souces or other files to improve development of web template -->
+<!--______END HEAD LIST______-->
+<head>
+<!-- ==== START LINK DESCRIPTION ==== -->
+ <!-- Area of head will be used to connect links regarding javascript/bootsrap as well as other outside sources -->
+ <!-- END LINK DESCRIPTION -->
+ <!--______________________-->
+ <meta charset="UTF-8" />
+ <meta name="HomePage" content="Main content for website"> 
+ <meta name="Sign Up Page" content="Page containing sign up content"> 	
+ <meta name="Contact Page" content="Page containing contact information" />
+ <meta name="3D Page" content="Page containing 3D games" />
+ <meta name="2D Page" content="Page containing 2D games" />
+	  
+ <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <!--______END LINKS______--> 
+</head>
+<!--______END HEAD FUNCTIONS______-->
+
+
+
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+<style>
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+ margin: 5px;
+ padding: 5px;
+ background: #0B174D;
+ animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+}
+/*______END HTML TAGS______*/
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.movingimg {
+ position: relative;
+ top: 350px;
+    animation-name: loadingMovement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+      -moz-animation-animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      -o-animation-animation-iteration-count: infinite;
+}
+/*______END CLASS NAMES______*/
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+@keyframes loadingMovement {
+ 10% {left:0px; top:0px;}
+ 20% {left: 200px; top:0px;}
+ 30% {left: 200px; top:200px;}
+ 40% {left: 0px; top: 200px;}
+ 50% {left: 0px; top: 0px;}
+
+ 10% {left:0px; top:0px;}
+ 20% {left: 0px; top:200px;}
+ 30% {left: -200px; top: 200px;}
+ 40% {left: 200px; top: 0px;}
+ 50% {left: 0px; top: 0px;}
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+/*_______END KEY FRAMES_______*/
+</style>
+<!--______END STYLESHEET FUNCTIONS______-->
+
+
+
+<!--- ==== START BODY FUNCTIONS ==== --->
+<!--- ==== START BODY FUNCTION LIST ==== --->
+<!-- FUNCTIONS INCLUDE -->
+<!-- ONE: Creating HTML Tags as a bases for the webtemplate -->
+<!-- TWO: Laying down divs and areas that content will likely take up -->
+<!-- THREE: Developing backend software to assist with user interface functionality -->
+<!--- END BODY FUNCTION LIST --->
+<!--_________________________________-->
+<body>
+<!--- ==== START MAIN CONTENT DESCRIPTION ==== --->
+<!-- Main content will display Virtual Arcade's purpose to the viewer -->
+<!--- END MAIN CONTENT DESCRIPTION --->
+<!--___________________________________________-->
+<!--- ==== START MAIN CONTENT ==== --->
+<center>
+   <img class="movingimg" src="civchoice-loading-gifs800x600.gif" height="440" width="550">
+</center>
+<!--______END MAIN CONTENT______-->
+
+<!--- ==== START JAVASCRIPT FUNCTIONS ==== --->
+<!--- LIST OF FUNCTIONS --->
+<!-- ONE: Warning to all users that are epileptic or prone to seizures -->
+<!-- ONE/1: Advisory to play on a device with a keyboard -->
+<!-- TWO: Pixel Alpahbet for website header -->
+<!-- THREE: Slide in and out side menu from clicking menu icon -->
+<!-- FOUR: Transition from one page to another, styled effects.-->
+<!--- END LIST OF FUNCTIONS-->
+<!--_______________________________________-->
+<script>
+/*     
+*----------------------------------------------------------------
+* START OPEN NEW WINDOW ON TIME INTERVAL!
+*----------------------------------------------------------------
+*/
+$(document).ready(function () {
+  setTimeout(function () {
+    window.location.href = "ContactPage.html"
+  }, 5000);
+});
+ /*     
+*----------------------------------------------------------------
+* END OPEN NEW WINDOW ON TIME INTERVAL
+*----------------------------------------------------------------
+*/    
+/* EXECUTE FUNCTIONS +++ */
+
+</script>
+<!--______END JAVASCRIPT FUNCTIONS______-->
+</body>
+<!--______END BODY FUNCTIONS______-->
+</html>

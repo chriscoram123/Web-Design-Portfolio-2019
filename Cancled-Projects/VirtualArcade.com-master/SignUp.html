@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<head>
+<title>SignUp Page</title>
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+</head>
+<style>
+body {
+ margin: 5px;
+ padding: 5px;
+ background-image: linear-gradient(to bottom, #D3F5EE 100%);
+ background-position: center;
+ background-size: cover;
+}
+button {
+position: relative;
+top: 57px;
+width: 85px;
+height: 40px;
+border-radius: 0px 0px 0px 0px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+h1 {
+ position: relative;
+ top: 0px;
+ font-family: 'Bungee', cursive;
+ font-size: 20px;
+ height: 200px;
+}
+h2 {
+ position: relative;
+ top: 0px; 
+ background: black;
+ color: white; 
+ width: 600px;
+}
+h3 {
+ background: #B17AE6;   
+ position: relative;
+ top: -25px;
+ font-size: 25px;
+}
+.h1 {
+ position: relative;
+ left: 45px;
+ top: -43px;
+}
+.header {
+ background-image: linear-gradient(to bottom, #7ED6E2, white);
+ height: 50px;
+ padding: 5px;
+ margin: 5px;
+ animation-name: slideInRight;
+ -moz-animation: slideInRight 1s;
+ -webkit-animation: slideInRight 1s;
+ -o-animation: slideInRight 1s;
+}
+.rash {
+ border-radius: 40px 40px 40px 40px;
+ position: relative;
+ top: -103px;
+ left: 0px;
+}
+.dropdown {
+ float: right;
+ position: relative;
+ top: -178px;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    top: -120px;
+    background-color: #725AB5;
+    width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 16px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+.navbar {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #FF7546;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+    top: 0px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+    animation-name: fadeIn;
+    -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+  position: relative;
+  top: 8px;
+}
+.d1 {
+  height: 400px;  
+  max-width: 700px;
+  position: relative;
+  top: 0px;
+}
+.d2 {
+  height: 200px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  float: absolute;
+}
+.d3 {
+  height: 370px;
+  float: absolute;
+  background: lemonchiffon;
+  max-width: 750px;
+  border: solid black 1px;
+}
+.d4 {
+  position: relative;
+  top: 135px;
+}
+.one {
+  background-image: linear-gradient(to bottom, #7ED6E2, #D2ACE7);
+  float: left;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 35px;;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.two {
+  background-image: linear-gradient(to bottom, #7ED6E2, #D2ACE7);
+  float: right;  
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 35px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.bk {
+  height: 200px;
+  float: left;
+}
+.section2 {
+ float: left;
+ height: 400px;
+ width: 300px;
+}
+.img2 {
+ position: relative;
+ top: 66px;
+ left: 17px;
+ height: 250px;
+ width: 290px;
+ border-radius: 200px 200px 200px 200px;
+ animation-name: fadeIn;
+ -moz-animation: fadeIn 3s;
+ -webkit-animation: fadeIn 3s;
+ -o-animation: fadeIn 3s;
+}
+input[type=FirstName] {
+ height: 22px;
+ width: 290px;
+ position: relative;
+ top: -20px;
+ left: 2px;
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type=LastName] {
+ height: 22px;
+ width: 290px;
+ position: relative;
+ top: 0px;
+ left: 2px;
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type=email] {
+ height: 22px;
+ width: 290px;
+ position: relative;
+ top: 20px;
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type=textbox] {
+ height: 259px;
+ width: 290px;
+ position: relative;
+ top: -47px;
+ left: 0px;
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.bk2 {
+ background-image: linear-gradient(to bottom, #7ED6E2, #B17AE6); 
+ height: 800px; 
+ position: relative;
+ top: -120px;
+ width: 850px;
+ animation-name: fadeIn;
+ -moz-animation: fadeIn 2s;
+ -webkit-animation: fadeIn 2s;
+ -o-animation: fadeIn 2s
+}
+.footer {
+ border: 2px solid black;
+ background-image: linear-gradient(to bottom, #7ED6E2, white);   
+ position: relative;
+ top: 5px;
+ position: relative;
+ top: -30px;
+}
+
+ @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+</style>
+<body>
+<!--- ==== START HEADER ==== --->
+<header>
+ <div class="header">
+ <img class="img1" src="maximusscreen_grande_aba2973c-3ea6-4a38-af68-a6ca5affd437.png" height=50px width=40px>
+    <h1 class="h1">Virtual_Arcade</h1>
+<!--- ==== START DROP DOWN ==== --->   
+ <div class="dropdown fix">
+  <span><img class="rash" src="Zk519Ao.gif" height="50" width="50"></span>
+  <div class="dropdown-content">
+    <center>
+      <a href="">Online Gaming</a>
+      <a href="">Online Gaming</a>
+      <a href="">Online Gaming</a>
+      <a href="">Online Gaming</a>
+    </center>  
+</div>
+</div>
+<!--- END DROP DOWN --->
+<!--- END HEADER --->    
+<!--- ==== START MAIN CONTENT ==== --->
+<center>
+<main> 
+<div class="bk2">  
+<img class="img2" src="giphy.gif" height="140" width="130"> 
+<div class="d4">
+<div class="d3">    
+<div class="d2">  
+<div class="d1">   
+  <article class="one">
+        <h3>Question</h3>  
+        <input type="textbox" placeholder="Message">
+  </article>
+  <article class="two">
+        <h3>Sign Up</h3>  
+        <input type="FirstName" placeholder="Name">
+        <br>
+        <input type="LastName" placeholder="Number">
+        <br>
+        <input type="email" placeholder="Email Address">
+        <button><a href="">Submit</a></button>
+  </article>
+</div>  
+</div>
+</div>
+</div>
+</main>
+</center>
+<!--- END MAIN CONTENT --->
+<!--- ==== START FOOTER ==== --->
+<center>
+ <footer>
+  <div class="footer">
+   <p>*All video games provided on Virtual Arcade, originally belong to the owner. For more information contact the owner using the contact link above</p> 
+  </div>
+ </footer>
+</center>    
+<!--- END FOOTER --->
+</body>
+</html>

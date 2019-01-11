@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!--- ==== START HEAD FUNCTIONS ==== --->
+<!--- ==== START HEAD LIST ==== --->
+<!-- ONE: Providing links from outside souces or other files to improve development of web template -->
+<!--______END HEAD LIST______-->
+<head>
+<title>Contact Page</title>
+<!-- ==== START LINK DESCRIPTION ==== -->
+ <!-- Area of head will be used to connect links regarding javascript/bootsrap as well as other outside sources -->
+ <!-- END LINK DESCRIPTION -->
+ <!--______________________-->
+ <meta charset="UTF-8" />
+ <meta name="HomePage" content="Main content for website"> 
+ <meta name="Sign Up Page" content="Page containing sign up content"> 	
+ <meta name="Contact Page" content="Page containing contact information" />
+ <meta name="3D Page" content="Page containing 3D games" />
+ <meta name="2D Page" content="Page containing 2D games" />
+
+<link script="">
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<!--______END LINKS______-->
+</head>
+<!--______END HEAD FUNCTIONS______-->
+
+
+
+
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+<style>
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+ margin: 5px;
+ padding: 5px;
+ background-image: linear-gradient(to bottom, #D3F5EE 100%);
+ background-position: center;
+ background-size: cover;
+}
+h1 {
+ position: relative;
+ top: 0px;
+ font-family: 'Bungee', cursive;
+ font-size: 20px;
+}
+h2 {
+ position: relative;
+ top: -20px; 
+ background: black;
+ color: white; 
+ width: 410px;
+}
+h3 {
+ background-image: linear-gradient(to bottom, #8D82E8, #7D9FE6);  
+}
+button {
+  position: relative;
+  top: -80px;
+  width: 405px;  
+  height: 40px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type=textbox] {
+ height: 200px;
+ width: 390px;
+ position: relative;
+ top: 20px;
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type=name] {
+position: relative;
+top: -10px;
+left: -45px;
+width: 300px;
+height: 20px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type=number] {
+position: relative;
+top: -5px;
+left: -45px;
+width: 300px;
+height: 20px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type=email] {
+position: relative;
+top: 0px;
+left: -45px;
+width: 300px;
+height: 20px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+/*______END HTML TAGS______*/
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.h1 {
+ position: relative;
+ left: 45px;
+ top: -43px;
+}
+.header {
+ background-image: linear-gradient(to bottom, #7ED6E2, white);
+ height: 50px;
+ padding: 5px;
+ margin: 5px;
+ animation-name: slideInRight;
+ -moz-animation: slideInRight 1s;
+ -webkit-animation: slideInRight 1s;
+ -o-animation: slideInRight 1s;
+}
+.rash {
+ border-radius: 40px 40px 40px 40px;
+ position: relative;
+ top: -103px;
+ left: 0px;
+}
+.dropdown {
+ float: right;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    top: -120px;
+    background-color: #725AB5;
+    width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 16px;
+    z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+.navbar {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #FF7546;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+    top: 0px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+    animation-name: fadeIn;
+    -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212529;
+  position: relative;
+  top: 8px;
+}
+.one {
+ background-image: linear-gradient(to bottom, #7ED6E2, white);   
+ position: relative;
+ top: -22px;
+ height: 800px;
+ margin: 5px;
+ padding: 5px;
+ width: 500px;
+ animation-name: fadeIn;
+ -moz-animation: fadeIn 3s;
+ -webkit-animation: fadeIn 3s;
+ -o-animation: fadeIn 3s;
+}
+.footer {
+ border: 2px solid black;
+ background-image: linear-gradient(to bottom, #7ED6E2, white);   
+ position: relative;
+ top: 5px;
+ position: relative;
+ top: -30px;
+}
+.ar1 { 
+ background: #B17AE6;
+ margin: 10px;
+ padding: 5px;
+ position: relative;
+ top: 0px;
+ height: 250px;
+ width: 410px;
+ border: solid black 1px;
+ box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.ar2{
+ background: #B17AE6;
+ margin: 10px;
+ padding: 5px;
+ height: 410px;
+ position: relative;
+ top: -10px;
+ width: 410px;
+ border: solid black 1px;
+ box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Bk1 {
+background-image: linear-gradient(to bottom, #8D82E8, #7D9FE6);
+height: 210px;
+width: 410px;
+position: relative;
+top: -30px;
+}
+.Bk2 {
+background-image: linear-gradient(to bottom, #8D82E8, #7D9FE6);
+height: 360px;
+width: 410px;
+position: relative;
+top: -30px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.p1 {
+background: white;
+width: 400px;
+height: 200px;
+position: relative;
+top: -30px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+/*______END CLASS NAMES______*/
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+/*________END BOOTSTRAP NODES_______*/
+
+</style>
+<!--______END STYLESHEET FUNCTIONS______-->
+
+
+
+
+<!--- ==== START BODY FUNCTIONS ==== --->
+<!--- ==== START BODY FUNCTION LIST ==== --->
+<!-- FUNCTIONS INCLUDE -->
+<!-- ONE: Creating HTML Tags as a bases for the webtemplate -->
+<!-- TWO: Laying down divs and areas that content will likely take up -->
+<!-- THREE: Developing backend software to assist with user interface functionality -->
+<!--- END BODY FUNCTION LIST --->
+<!--_________________________________-->
+<body>
+<!--- ==== START HEADER ==== --->
+<header>
+ <div class="header">
+ <img class="img1" src="maximusscreen_grande_aba2973c-3ea6-4a38-af68-a6ca5affd437.png" height=50px width=40px>
+    <h1 class="h1">Virtual_Arcade</h1>
+<!--- ==== START DROP DOWN ==== --->   
+ <div class="dropdown fix">
+    <span><img class="rash" src="Zk519Ao.gif" height="50" width="50"></span>
+    <div class="dropdown-content">
+     <center>
+        <a href="">Online Gaming</a>
+        <a href="">Online Gaming</a>
+        <a href="">Online Gaming</a>
+        <a href="">Online Gaming</a>
+     </center>  
+    </div>
+    </div>
+<!--- END DROP DOWN --->
+<!--- END HEADER --->
+
+<!--- ==== START MAIN CONTENT DESCRIPTION ==== --->
+<!-- Main content will display Virtual Arcade's purpose to the viewer -->
+<!--- END MAIN CONTENT DESCRIPTION --->
+<!--___________________________________________-->
+<!--- ==== START MAIN CONTENT ==== -->
+<main>
+<center>   
+ <div class="one">
+  <article class="ar1">
+  <h2>Instructions</h2>    
+    <p class="p1">Information Information</p> 
+  </article> 
+  <br>
+  <article class="ar2">
+  <h2>Contact</h2>    
+    <article class="Bk2">  
+      <h3>Fill Out</h3>  
+      <input type="name" placeholder="Name">
+      <br>
+      <input type="number" placeholder="Number">
+      <br>
+      <input type="email" placeholder="Email Address">
+      <br>
+      <input type="textbox" placeholder="Message">
+      </article>
+  </article> 
+ </div>
+ <button onclick>Submit</button>
+</center> 
+</main>
+<!---- END MAIN CONTENT --->
+
+<!--- ==== START FOOTER DESCRIPTION ==== --->
+<!-- Footer will be used to contain all copyright information regarding the original owners of said video games. And the non profit use of images, gifs, etc.-->
+<!--- ==== END FOOTER DESCRIPTION ==== -->
+<!--______________________________________-->
+<!--- ==== START FOOTER ==== --->
+<center>
+<footer>
+  <div class="footer">
+   <p>*All video games provided on Virtual Arcade, originally belong to the owner. For more information contact the owner using the contact link above</p> 
+  </div>
+</footer>
+</center>    
+<!--______END FOOTER______-->
+
+
+
+<!--- ==== START JAVASCRIPT FUNCTIONS ==== --->
+<!--- LIST OF FUNCTIONS --->
+<!-- ONE: Warning to all users that are epileptic or prone to seizures -->
+<!-- ONE/1: Advisory to play on a device with a keyboard -->
+<!-- TWO: Pixel Alpahbet for website header -->
+<!-- THREE: Slide in and out side menu from clicking menu icon -->
+<!-- FOUR: Transition from one page to another, styled effects.-->
+<!--- END LIST OF FUNCTIONS-->
+<!--_______________________________________-->
+<script>
+    document.getElementsByClassName("p1").onmouseover = function() {
+      document.getElementByClassName("p1").style.fontSize = "125%" 
+                  };
+   
+    document.getElementByClassName("p1").onmouseout = function() {
+      document.getElementByClassName("p1").style.fontSize = "100%"; 
+                  };
+   </script>
+   <!--______END JAVASCRIPT FUNCTIONS______-->
+   </body>
+   <!--______END BODY FUNCTIONS______-->
+</html>

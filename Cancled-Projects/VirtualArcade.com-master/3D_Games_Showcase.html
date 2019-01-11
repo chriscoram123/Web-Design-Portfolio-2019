@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<!--- ==== START HEAD FUNCTIONS ==== --->
+<!--- ==== START HEAD LIST ==== --->
+<!-- ONE: Providing links from outside souces or other files to improve development of web template -->
+<!--______END HEAD LIST______-->
+<head>
+<!-- ==== START LINK DESCRIPTION ==== -->
+ <!-- Area of head will be used to connect links regarding javascript/bootsrap as well as other outside sources -->
+ <!-- END LINK DESCRIPTION -->
+ <!--______________________-->
+ <meta charset="UTF-8" />
+ <meta name="HomePage" content="Main content for website"> 
+ <meta name="Sign Up Page" content="Page containing sign up content"> 	
+ <meta name="Contact Page" content="Page containing contact information" />
+ <meta name="3D Page" content="Page containing 3D games" />
+ <meta name="2D Page" content="Page containing 2D games" />
+	  
+ <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <!--______END LINKS______--> 
+</head>
+<!--______END HEAD FUNCTIONS______-->
+
+
+
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+<style>
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+      margin: 5px;
+      padding: 5px;
+      background-image: linear-gradient(to bottom, #D3F5EE 100%);
+    }
+    main {
+     height: 350px;
+    }
+    h1 {
+      position: relative;
+      top: -35px;
+      left: -620px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 20px;
+    }
+    h2 {
+     background: black; 
+     width: 300px;
+     height: 18px;
+     font-size: -30;
+     position: relative;
+     top: 10px;
+     color: white;
+     padding: 3px;
+     margin: 3px;
+     border: solid black 1px;
+     box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.3);
+     animation-name: fadeIn;
+      -moz-animation: fadeIn 3s;
+      -webkit-animation: fadeIn 3s;
+      -o-animation: fadeIn 3s;
+      font-family: 'Orbitron', sans-serif;  
+    }
+    h3 {
+     padding: 1px;
+     margin: 1px;
+     font-size: 35px;
+     color: white;
+     font-family: 'Orbitron', sans-serif;  
+    }
+    h4 {
+    position: relative;
+    top: 170px;
+    color: green;
+    font-size: 30px;
+    }
+    button:active {background: lightcoral;}
+    button {
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+     background-image: linear-gradient(to bottom, #7ED6E2, #F87C8B);
+     border-radius: 1px 1px 1px 1px; 
+     font-size: 15px;
+     position: relative;
+     top: -13px;
+    }
+    article {
+    animation-name: fadeIn;
+    -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+    }
+    text {
+      color: red;
+      position: relative;
+      top: -14px;
+      font-size: 12px;
+    }
+/*______END HTML TAGS______*/
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+/* Main header classes */
+.header {
+      background-image: linear-gradient(to bottom, #7ED6E2, white);
+      height: 50px;
+      padding: 5px;
+      margin: 5px;
+      animation-name: slideInRight;
+      -moz-animation: slideInRight 1s;
+      -webkit-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+   }
+    .arheader {
+      border: solid black 1px;
+      background: black;
+      color: white;
+      margin: 5px;
+      padding: 5px;
+      height: 40px;
+      width: 440px;
+      position: relative;
+      left: -6px;
+      top: -5px;
+    }
+    .footer {
+     position: relative;
+     top: 940px;
+     left: 10px;
+     background-image: linear-gradient(to bottom, #7ED6E2, white);
+     padding: 5px;
+     margin: 5px;
+     width: 1600px;
+     animation-name: slideInRight;
+      -moz-animation: slideInRight 1s;
+      -webkit-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+    }    
+/*______________________*/    
+/* Logo image classes */    
+.img1 {
+ position: relative;
+ left: -750px;
+}
+.img2 {
+ position: relative;
+ top: 2px;
+}
+/*___________________*/
+.bk {
+ background-image: linear-gradient(to bottom, #7ED6E2, #FFBABA 100%); 
+ padding: 5px;
+ margin: 5px;
+ position: relative;
+ top: 10px;
+ height: 500px;
+ animation-name: fadeIn;
+    -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+}
+.cm {
+ background: rgba(0, 0, 0, 0.9);
+ position: relative;
+ top: -411px;
+ height: 392px;
+}
+.cmbox {
+ position: relative;
+ top: -18px;
+}
+/* Main template divs */
+.box1 {
+ height: 1000px;
+ width: 1600px;
+ position: relative;
+ left: 20px;
+}
+.box2 {
+ height: 350px;
+}
+.box3 {
+ height: 350px;
+ width: 1600px;
+}
+.box1 {
+background-image: linear-gradient(to bottom, #AEEFE8, #B17AE6 100%);
+padding: 5px;
+margin: 5px;
+width: 1600px;
+height: 1000px;
+position: relative;
+top: -10px;
+animation-name: fadeIn;
+    -moz-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s
+}
+/*__________________*/
+/* Classes for articles */
+.ar1 {
+ float: left;
+ color: white;
+ background: white;
+ position: relative;
+ left: 36px;
+ top: 22px;
+ background-image: linear-gradient(to bottom, #D6B0EA, #AEEFE8 100%);
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.ar2 {
+ float: left;
+ color: white;
+ background: white;
+ position: relative;
+ left: 125px;
+ top: 22px;
+ background-image: linear-gradient(to bottom, #D6B0EA, #ADD8E8 100%);
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+ height: 391px;
+}
+.ar3 {
+ float: left;
+ color: white;
+ background: white;
+ position: relative;
+ left: 205px;
+ top: 22px;
+ background-image: linear-gradient(to bottom, #D6B0EA, #ADD8E8 100%);
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+ height: 391px;
+}
+.ar4 {
+ float: left;
+ color: white;
+ background: white;
+ position: relative;
+ left: 290px;
+ top: 2px;
+ background-image: linear-gradient(to bottom, #D6B0EA, #ADD8E8 100%);
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+ height: 391px;
+}
+.ar5 {
+ float: left;
+ color: white;
+ background: white;
+ position: relative;
+ left: 62px;
+ top: 22px;
+}
+.ar6 {
+ float: left;
+ color: white;
+ background: white;
+ position: relative;
+ left: 120px;
+ top: 130px;
+}
+.ar7 {
+ float: left;
+ color: white;
+ background: white;
+ position: relative;
+ left: 200px;
+ top: 130px;
+}
+.ar8 {
+ float: left;
+ color: white;
+ background: white;
+ position: relative;
+ left: 285px;
+ top: 140px;
+}
+/*_____________________*/
+/* Paragraph Classes */
+.p1 {
+width: 300px;
+height: 90px;
+background-image: linear-gradient(to right, #95CFF2, #91F4C4 100%);
+color: black;
+position: relative;
+top: -11px;
+box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.1);
+}
+/*_____________________*/
+.dv1 {
+background: white;
+height: 400px;
+}
+.div11 {
+ position: relative;
+ top: -10px;
+}
+.bkimg {
+ background: rgba(0, 0, 0, 0.2);   
+}
+/* Image classes for bk div */
+.rash {
+border-radius: 200px 200px 200px 200px;   
+box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.3);
+position: relative;
+top: 25px;
+}
+.rash1 {
+float: left;
+position: relative;
+top: 100px;
+left: 160px;
+border-radius: 200px 200px 200px 200px;
+box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.rash2 {
+float: right;
+position: relative;
+top: 100px;
+left: -160px;
+border-radius: 200px 200px 200px 200px;
+box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.3);
+/*________________________*/
+}
+/*______END CLASS NAMES______*/
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+/*_______END KEY FRAMES_______*/
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+@import '~@angular/material/theming';
+/*________END BOOTSTRAP/IMPORTS_______*/
+</style>
+<!--______END STYLESHEET FUNCTIONS______-->
+
+
+
+<!--- ==== START BODY FUNCTIONS ==== --->
+<!--- ==== START BODY FUNCTION LIST ==== --->
+<!-- FUNCTIONS INCLUDE -->
+<!-- ONE: Creating HTML Tags as a bases for the webtemplate -->
+<!-- TWO: Laying down divs and areas that content will likely take up -->
+<!-- THREE: Developing backend software to assist with user interface functionality -->
+<!--- END BODY FUNCTION LIST --->
+<!--_________________________________-->
+<body>
+<!--- ==== START MAIN CONTENT DESCRIPTION ==== --->
+<!-- Main content will display Virtual Arcade's purpose to the viewer -->
+<!--- END MAIN CONTENT DESCRIPTION --->
+<!--___________________________________________-->
+<main>
+<div class="box1">
+<center>
+<div class="box2">
+<div class="box3"> 
+<!--- ==== START HEADER DESCRIPTION === --->
+<!-- Header will contain logo, menu icon, and the website title -->
+<!--- END HEADER DESCRIPTION --->
+<!--_____________________________________-->
+<!--- ==== START HEADER ==== --->
+<header>
+<div class="header" id="header">
+  <img class="img1" src="maximusscreen_grande_aba2973c-3ea6-4a38-af68-a6ca5affd437.png" height=50px width=40px>
+    <h1 class="h1">Virtual_Arcade</h1>
+</div>
+</header>
+<!--______END HEADER______-->
+<!--- ==== START DROP DOWN ==== --->   
+<center>
+<div class="bk">  
+<h3>Gaming Center</h3>    
+ <div class="dropdown fix">
+    <span><img class="rash" src="brain-gif.gif" width="400" height="400"></span> 
+    <span><img class="rash1" src="giphy-2.gif" width="250px" height="250"></span> 
+    <span><img class="rash2" src="giphy-2.gif" width="250px" height="250"></span> 
+ </div>
+</div> 
+</center> 
+<!--______END DROP DOWN______-->  
+<div class="bk2">
+     <article class="ar1">
+     <div class="div11">
+      <h2>Cubes</h2>
+     </div>
+     <div class="bkimg">
+     <img class="img2" src="Screen Shot 2018-10-21 at 6.30.50 PM.png" height="200" width="310">
+     </div>
+      <div class="div1"  width="300">
+       <p class="p1">
+       Contained in "Cubes" is 
+       a selection of video games
+       programmed for an interaction
+       between player and cubes in space.
+       </p>
+       <button class="b1"><a href="Transition_Page2_1.html">Button</a></button>
+      </div>
+     </article>
+     <article class="ar2">
+            <div class="div11">
+                <h2>^*FR@*RFiub</h2>
+               </div>
+               <div class="bkimg">
+                <img class="img2" src="Unknown.jpeg" height="200" width="200">
+               </div> 
+                <div class="div1"  width="300">
+                 <p class="p1">
+                 fqbf3rh237hr230h24r01djnbn0j
+                 nfonf748294j204307h2-ffj-n^%
+                 !I#D*@#@Bubbfuifbefwefewfefw
+                 fqbf3rh237hr230h24r01djnbn0j
+                 nfonf748294j204307h2-ffj-n^%
+                 </p>
+                 <button class="b1"><a href="3D Games.html">ctd^D%t</a></button>
+                </div>
+                <div class="cmbox">
+                <div class="cm">
+                 <h4>Comming Soon...</h4>
+                </div>
+                </div>
+     </article>
+     <article class="ar3">
+            <div class="div11">
+                <h2>^*FR@*RFiub</h2>
+               </div>
+               <div class="bkimg">
+               <img class="img2" src="Unknown.jpeg" height="200" width="200">
+               </div>
+                <div class="div1"  width="300">
+                 <p class="p1">
+                 fqbf3rh237hr230h24r01djnbn0j
+                 nfonf748294j204307h2-ffj-n^%
+                 !I#D*@#@Bubbfuifbefwefewfefw
+                 fqbf3rh237hr230h24r01djnbn0j
+                 nfonf748294j204307h2-ffj-n^%
+                 </p>
+                 <button class="b1"><a href="3D Games.html">ctd^D%t</a></button>
+                </div>
+                <div class="cmbox">
+                <div class="cm">
+                 <h4>Comming Soon...</h4>
+                </div>
+            </div>
+     </article>
+    </div>
+ <br>   
+ <!--- ==== START SECOND LAYER ==== --->   
+ <article class="ar4">
+        <div class="div11">
+         <h2>^*FR@*RFiub</h2>
+        </div>
+        <div class="bkimg">
+        <img class="img2" src="Unknown.jpeg" height="200" width="200">
+        </div>
+         <div class="div1"  width="300">
+          <p class="p1">
+          fqbf3rh237hr230h24r01djnbn0j
+          nfonf748294j204307h2-ffj-n^%
+          !I#D*@#@Bubbfuifbefwefewfefw
+          fqbf3rh237hr230h24r01djnbn0j
+          nfonf748294j204307h2-ffj-n^%
+          </p>
+          <button class="b1"><a href="3D Games.html">ctd^D%t</a></button>
+         </div>
+         <div class="cmbox">
+         <div class="cm">
+          <h4>Comming Soon...</h4>
+         </div>
+         </div>
+        </article>
+       </div>
+    <br>  
+</div>        
+<!--- END SECOND LAYER ---> 
+</div>
+</div>
+</center>
+</div>
+</main>
+    
+<!--- ==== START FOOTER DESCRIPTION ==== --->
+<!-- Footer will be used to contain all copyright information regarding the original owners of said video games. And the non profit use of images, gifs, etc.-->
+<!--- ==== END FOOTER DESCRIPTION ==== -->
+<!--______________________________________-->
+<!--- ==== START FOOTER ==== --->
+<footer>
+        <center>  
+         <div class="footer">
+          <p>*All video games provided on Virtual Arcade, originally belong to the owner. For more information contact the owner using the contact link above</p> 
+           <br>
+          <text>WARNING: CAUTION IS ADVISED TO USERS WHO HAVE EXPERIENCED SEZUIRES OR HAVE A HISTORY OF EPILEPSY! CONTINUE AT YOUR OWN RISK! </text>
+          </div>
+         </footer>
+        </center>    
+<!--______END FOOTER______-->     
+
+
+
+        
+
+
+
+
+<!--- ==== START JAVASCRIPT FUNCTIONS ==== --->
+<!--- LIST OF FUNCTIONS --->
+<!-- ONE: Warning to all users that are epileptic or prone to seizures -->
+<!-- ONE/1: Advisory to play on a device with a keyboard -->
+<!-- TWO: Pixel Alpahbet for website header -->
+<!-- THREE: Slide in and out side menu from clicking menu icon -->
+<!-- FOUR: Transition from one page to another, styled effects.-->
+<!--- END LIST OF FUNCTIONS-->
+<!--_______________________________________-->
+<script>
+
+
+/* EXECUTE FUNCTIONS +++ */
+</script>
+<!--______END JAVASCRIPT FUNCTIONS______-->
+</body>
+<!--______END BODY FUNCTIONS______-->
+</html>
