@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<!--- ==== START HEAD FUNCTIONS ==== --->
+<!--- ==== START HEAD LIST ==== --->
+<!-- ONE: Providing links from outside souces or other files to improve development of web template -->
+<!--______END HEAD LIST______-->
+<html>
+<head>
+<title>HomePage</title>
+<!-- ==== START LINK DESCRIPTION ==== -->
+ <!-- Area of head will be used to connect links regarding javascript/bootsrap as well as other outside sources -->
+ <!-- END LINK DESCRIPTION -->
+ <!--______________________-->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <!--______END LINKS______-->
+<meta charset="utf-8" />
+</head>
+<!--______END HEAD FUNCTIONS______-->
+
+
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+<style>
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+body {
+ margin: 5px;
+ padding: 5px;
+}
+h3 {
+ border: solid black 2px;
+ position: relative;
+ top: -10px;
+ left: 0px;
+ border-radius: 200px 200px 0px 0px;
+ width: 150px;
+ font-size: 25px;
+}
+input {
+ position: relative;
+ top: -60px;
+ width: 800px;
+ height: 30px;
+ border: 1px solid black;
+}
+p {
+ position: relative;
+ top: -0px;
+ left: 120px;
+ font-size: 35px;
+}
+h4 {
+ font-size: 28px;
+}
+h5 {
+ font-size: 30px;
+ position: relative;
+ top: -50px;
+ border: solid black 2px;
+}
+/*______END HTML TAGS______*/
+
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.one {
+ border: solid black 1px;
+ height: 70px;
+ width: 2400px;
+}
+.two {
+ border: solid black 2px;
+ height: 400px;
+}
+.three {
+ border: solid black 2px;
+ height: 400px;  
+}
+.four {
+ border: solid black 2px;
+ height: 400px;  
+}
+.main {
+width: 1600px;
+padding: 5px;
+margin: 5px;
+position: relative;
+left: 400px;
+border: solid black 2px;
+}
+.img1 {
+ float: left;
+ border: solid black 2px;
+}
+.img2 {
+ float: right;
+ border: solid black 2px;
+ position: relative;
+ top: -100px;
+ left: -40px;
+}
+.img3 {
+ border: solid black 2px;
+ position: relative;
+ top: -14px;
+}
+.img4 {
+ border: solid black 2px;
+ position: relative;
+ top: -74px;
+}
+.box1 {
+ border: solid black 2px;
+ height: 420px;
+}
+.box2 {
+ float: left;
+ width: 550px;
+ border: solid black 2px;
+ height: 323px;
+ position: relative;
+ left: -250px;
+}
+.box3 {
+ float: left;
+ border: solid black 2px;
+ width: 550px;
+}
+.box4 {
+ float: right;
+ border: solid black 2px;
+ width: 550px;
+ height: 60px;
+}
+.box5 {
+ border: solid black 2px;
+ float: right;
+ width: 300px;
+ position: relative;
+ left: -310px;
+ top: -10px;
+ height: 250px;
+ border-radius: 200px 200px 200px 200px;
+}
+.box6 {
+ border: solid black 2px;
+ float: right;
+ width: 300px;
+ position: relative;
+ left: 460px;
+ top: -256px;
+ height: 250px;
+ border-radius: 200px 200px 200px 200px;
+}
+.box7 {
+ height: 300px;
+ max-width: 1000px;
+ position: relative;
+ top: -18px;
+ left: -80px;
+}
+.box8 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+}
+.box9 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+ position: relative;
+ left: 120px;
+}
+.box91 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+ position: relative;
+ left: 120px;
+ top: -80px;
+}
+.box10 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+ position: relative;
+ left: 230px;
+}
+.box101 {
+ float: left;
+ border: solid black 2px;
+ height: 250px;
+ width: 300px;
+ position: relative;
+ left: 230px;
+ top: -80px;
+}
+.footer {
+ border: 2px solid black;
+ height: 80px;
+ width: 2400px;
+ position: relative;
+ left: 1px;
+}
+.ad1 {
+ float: left;
+ position: relative;
+ top: 30px;
+ left: -365px;
+ width: 300px;
+ border: solid black 2px;
+ height: 1500px;
+}
+.ad2 {
+ float: right;
+ position: relative;
+ top: 30px;
+ left: 350px;
+ width: 300px;
+ border: solid black 2px;
+ height: 1500px;
+}
+/*______END CLASS NAMES______*/
+
+/* START KEY FRAMES DESCRIPTION */
+/* Key frames will be used to add responsive design to html durning loading periods*/
+/* END START KEY FRAMES DESCRIPTION */
+/* _____________________________*/
+
+
+
+
+
+/*_______END KEY FRAMES_______*/
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+
+
+/*________END BOOTSTRAP/IMPORTS_______*/
+</style>
+<!--______END STYLESHEET FUNCTIONS______-->
+
+
+
+<!--- ==== START BODY FUNCTIONS ==== --->
+<!--- ==== START BODY FUNCTION LIST ==== --->
+<!-- FUNCTIONS INCLUDE -->
+<!-- ONE: Creating HTML Tags as a bases for the webtemplate -->
+<!-- TWO: Laying down divs and areas that content will likely take up -->
+<!-- THREE: Developing backend software to assist with user interface functionality -->
+<!--- END BODY FUNCTION LIST --->
+<!--_________________________________-->
+<body>
+<!--- ==== START HEADER DESCRIPTION === --->
+<!-- Header will contain logo, menu icon, and the website title -->
+<!--- END HEADER DESCRIPTION --->
+<!--_____________________________________-->
+<!--- ==== START HEADER ==== --->
+<header>
+ <div class="one">
+     <img class="img1" src="" height="20px" width="40px">
+      <h1>HyperSpeed</h1>
+      <center>
+       <input type="Search Bar" placeholder="Search Bar" method="">
+      </center>
+       <img class="img2" src="" height="50px" width="50px">
+ </div>
+</header>
+<!--______END HEADER______-->
+
+
+
+
+
+<!--- ==== START MAIN CONTENT DESCRIPTION ==== --->
+<!-- Main content will display Virtual Arcade's purpose to the viewer -->
+<!--- END MAIN CONTENT DESCRIPTION --->
+<!--___________________________________________-->
+<!--- ==== START MAIN CONTENT ==== --->
+<!--- ==== START SECTION ONE ==== --->
+<div class="main">
+    <div class="ad1">
+
+      </div>
+      
+      <div class="ad2">
+      
+      </div>
+<div class="box1">
+<!-- Left Side -->
+ <div class="box2">
+  <div class="box3">
+    <h2>Title</h2>
+
+  </div>
+  <div class="box4">
+   <center>
+    <h2>Title</h2>
+
+   </center>
+  </div>
+  <div class="box4">
+   <center>
+     <h2>Title</h2>
+         
+   </center>
+  </div>
+  <div class="box4">
+   <center>
+     <h2>Title</h2>
+              
+   </center>
+  </div>
+  <div class="box4">
+   <center>
+    <h2>Title</h2>
+              
+   </center>
+  </div>
+ </div>
+ <!-- Right Side -->
+ <p>"Quote will go here"</p>
+ <div class="box5">
+ <center>
+  <h3>Title</h3>
+   <img class="img3" src="" height="140px" width="150px">
+ </center>
+ </div>
+ <div class="box6">
+ <center>
+  <h3>Title</h3>
+   <img class="img3" src="" height="140px" width="150px">
+ </center>
+ </div>
+</div>
+<!--______END SECTION ONE______-->
+<!--______END MAIN CONTENT______-->
+
+
+<!--- ==== START SECTION TWO ==== --->
+<div class="two">      
+<!--- ==== START MAIN BOX DESCRIPTION ==== --->
+<!-- MAinbox will hold most content regarding web application's functions -->
+<!-- Mainbox will also be used as a container to hold all divs regarding middle and side content -->
+<!--- END MAIN BOX DESCRIPTION --->
+<!--________________________________________-->
+<!--- ==== START MAINBOX ===== -->
+<h4>Title</h4>
+<center>
+ <div class="box7">
+  <div class="box8">
+   <h5>Title</h5>
+    <img class="img4" src="" height="150" width="200">
+  </div>
+  <div class="box91">
+   <h5>Title</h5>
+    <img class="img4" src="" height="150" width="200">
+  </div>
+  <div class="box101">
+   <h5>Title</h5>
+    <img class="img4" src="" height="150" width="200">
+  </div>
+ </div> 
+</center>    
+<!--______END MAINBOX______-->
+</div>
+<!--______END SECTION TWO______-->
+
+
+<!--- ==== START SECTION THREE ==== --->
+<div class="three">
+<!--- ==== START MAIN BOX DESCRIPTION ==== --->
+<!-- MAinbox will hold most content regarding web application's functions -->
+<!-- Mainbox will also be used as a container to hold all divs regarding middle and side content -->
+<!--- END MAIN BOX DESCRIPTION --->
+<!--________________________________________-->
+<!--- ==== START MAINBOX ===== -->
+<h4>Title</h4>
+<center>
+  <div class="box7">
+    <div class="box8">
+     <h5>Title</h5>
+      <img class="img4" src="" height="150" width="200">
+    </div>
+  <div class="box9">
+     <h5>Title</h5>
+      <img class="img4" src="" height="150" width="200">
+  </div>
+    <div class="box10">
+     <h5>Title</h5>
+      <img class="img4" src="" height="150" width="200">
+    </div>
+  </div> 
+</center>            
+<!--______END MAINBOX______-->
+</div>
+<!--______END SECTION THREE______-->
+
+
+<!--- ==== START SECTION THREE ==== --->
+<div class="four">
+<!--- ==== START MAIN BOX DESCRIPTION ==== --->
+<!-- MAinbox will hold most content regarding web application's functions -->
+<!-- Mainbox will also be used as a container to hold all divs regarding middle and side content -->
+<!--- END MAIN BOX DESCRIPTION --->
+<!--________________________________________-->
+<!--- ==== START MAINBOX ===== -->
+<h4>Title</h4>              
+<center>
+<div class="box7">
+  <div class="box8">
+   <h5>Title</h5>
+    <img class="img4" src="" height="150" width="200">
+  </div>
+<div class="box9">
+   <h5>Title</h5>
+    <img class="img4" src="" height="150" width="200">
+</div>
+ <div class="box10">
+   <h5>Title</h5>
+    <img class="img4" src="" height="150" width="200">
+  </div>
+ </div> 
+</center>    
+<!--______END MAINBOX______-->  
+</div>
+<!--______END SECTION THREE______-->
+</div>
+
+
+<!--- ==== START FOOTER DESCRIPTION ==== --->
+<!-- Footer will be used to contain all copyright information regarding the original owners of said video games. And the non profit use of images, gifs, etc.-->
+<!--- ==== END FOOTER DESCRIPTION ==== -->
+<!--______________________________________-->
+<!--- ==== START FOOTER ==== --->
+<div class="footer">
+<center>
+ <h6>*Copywrite Infromation</h6>
+</center>
+</div>
+<!--______END FOOTER______--> 
+
+
+<!--- ==== START JAVASCRIPT FUNCTIONS ==== --->
+<!--- LIST OF FUNCTIONS --->
+<!-- ONE: Warning to all users that are epileptic or prone to seizures -->
+<!-- ONE/1: Advisory to play on a device with a keyboard -->
+<!-- TWO: Pixel Alpahbet for website header -->
+<!-- THREE: Slide in and out side menu from clicking menu icon -->
+<!-- FOUR: Transition from one page to another, styled effects.-->
+<!--- END LIST OF FUNCTIONS-->
+<!--_______________________________________-->
+<script>
+
+
+
+</script>
+<!--______END JAVASCRIPT FUNCTIONS______-->
+</body>
+<!--______END BODY FUNCTIONS______-->
+</html>
