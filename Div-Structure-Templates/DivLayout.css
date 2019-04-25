@@ -1,0 +1,107 @@
+/*
+<!--- ==== START STYLESHEET FUNCTIONS ==== --->
+<!--- ==== START STYLESHEET LIST ==== --->
+<!-- ONE: Provide coloring and shape to all divs, articles, etc. -->
+<!-- TWO: Provide responsiive loading features to all html tags -->
+<!-- THREE: Responsible for positioning of content -->
+<!--______END STYLESHEET LIST______-->
+*/
+/*____________________________________________________________________________________________________________*/
+/* START HTML TAG DESCRIPTION */  
+/* Area of CSS code will contain html tags for better organization and development */
+/* END HTML DESCRIPTION */
+/*___________________________*/
+
+
+
+
+
+
+
+/*______END HTML TAGS______*/
+
+/* START CLASS NAMES DESCRIPTION */
+/* Area of CSS code will contain class names for better orginization and development */   
+/* END CLASS NAMES DESCRIPTION */
+/*_______________________________*/ 
+.header {
+ border: solid black 2px;
+ float: left;
+ height: 400px;
+ width: 200px;
+ padding: 5px;
+ margin: 5px;
+}
+.box1 {
+ border: solid black 2px;
+ padding: 5px;
+ margin: 5px;
+ height: 800px;
+ width: 700px;
+ float: left;
+}
+.box2 {
+ border: solid black 2px;
+ padding: 5px;
+ margin: 5px;
+}
+.box3 {
+ border: solid black 2px;
+ padding: 5px;
+ margin: 5px;
+ height: 800px;
+ width: 300px;
+ float: right;
+}
+.box4 {
+ border: solid red 2px;
+ padding: 2px;
+ margin: 2px;
+ height: 900px;
+ position: relative;
+ left: 55px;
+}
+.box5 {
+ float: left
+}
+.box6 {
+ border: solid black 2px;
+ height: 900px;
+ width: 1200px;
+}
+.content-right-box {
+ border: solid black 2px;
+ float: right;
+ height: 400px;
+ width: 400px;
+ padding: 5px;
+ margin: 5px;
+}
+
+
+
+
+
+
+
+
+/*______END CLASS NAMES______*/
+
+/* START BOOTSTAP NODES DESCRIPTION */
+/* Bootstaro nodes will assist development in responsive design/software */
+/* END BOOTSTAP NODES DESCRIPTION */
+/*__________________________________*/
+/* START BOOTSTRAP/IMPORTS */
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+@import '~@angular/material/theming';
+/*________END BOOTSTRAP/IMPORTS_______*/
+/*<!--______END STYLESHEET FUNCTIONS______-->*/
