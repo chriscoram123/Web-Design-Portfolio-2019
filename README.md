@@ -1,2 +1,2 @@
 # Web-Design-Portfolio
-Portfolio containing all thing related to Web Templates, UI, UX, Designs, Websites, etc.
+Explore a comprehensive portfolio featuring a wide array of web templates, UI/UX designs, websites, and more. 
